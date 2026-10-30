@@ -1,0 +1,1475 @@
+Script started on 2026-10-30 16:27:51+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="48"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              ]2;yoda@monja:~]1;~]7;file://monja/home/yoda[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;30m [0m[38;5;30m[47m[47m[38;5;30m [0m[38;5;30m[47m[48;5;30m[37m[0m[37m[48;5;30m[48;5;30m[38;5;254m  [1m[38;5;254m[48;5;30m[38;5;255m~[0m[38;5;255m[48;5;30m[48;5;30m[38;5;254m[0m[38;5;254m[48;5;30m[48;5;30m[38;5;254m [0m[38;5;254m[48;5;30m[49m[38;5;30m[0m[38;5;30m[49m[39m [0m[49m[39m[K[174C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[49m[39m[178D[?2004hp[1m[31mp[0m[39m[1m[31mp[0m[39m[38;5;244ms[39m[1m[31mp[1m[31ms[0m[39m[0m[32mp[0m[32ms[39m[32mp[32ms[32m [39m[32mp[32ms[39m[39m [38;5;244maux[39m[39ma[4ma[24m[4ma[39m[4mu[24m[24ma[24mu[39mx[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mps[39m aux[K[?25h
+]2;ps aux]1;USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.5  0.0  20628 14756 ?        Ss   16:20   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    16:20   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    16:20   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           5  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-rcu_gp]
+root           6  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-sync_wq]
+root           7  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/0:0-events]
+root          10  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/0:0H-events_highpri]
+root          11  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u256:0-events_unbound]
+root          13  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u256:1-ipv6_addrconf]
+root          15  0.0  0.0      0     0 ?        I    16:20   0:00 [rcu_tasks_kthread]
+root          16  0.0  0.0      0     0 ?        I    16:20   0:00 [rcu_tasks_rude_kthread]
+root          17  0.0  0.0      0     0 ?        I    16:20   0:00 [rcu_tasks_trace_kthread]
+root          18  0.0  0.0      0     0 ?        S    16:20   0:00 [ksoftirqd/0]
+root          19  0.0  0.0      0     0 ?        I    16:20   0:00 [rcu_preempt]
+root          20  0.0  0.0      0     0 ?        S    16:20   0:00 [rcub/1]
+root          21  0.0  0.0      0     0 ?        S    16:20   0:00 [rcu_exp_par_gp_kthread_worker/1]
+root          22  0.0  0.0      0     0 ?        S    16:20   0:00 [rcu_exp_gp_kthread_worker]
+root          23  0.0  0.0      0     0 ?        S    16:20   0:00 [migration/0]
+root          24  0.0  0.0      0     0 ?        S    16:20   0:00 [idle_inject/0]
+root          25  0.0  0.0      0     0 ?        S    16:20   0:00 [cpuhp/0]
+root          26  0.0  0.0      0     0 ?        S    16:20   0:00 [cpuhp/1]
+root          27  0.0  0.0      0     0 ?        S    16:20   0:00 [idle_inject/1]
+root          28  0.0  0.0      0     0 ?        S    16:20   0:00 [migration/1]
+root          29  0.0  0.0      0     0 ?        S    16:20   0:00 [ksoftirqd/1]
+root          31  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/1:0H-events_highpri]
+root          32  0.0  0.0      0     0 ?        S    16:20   0:00 [cpuhp/2]
+root          33  0.0  0.0      0     0 ?        S    16:20   0:00 [idle_inject/2]
+root          34  0.0  0.0      0     0 ?        S    16:20   0:00 [migration/2]
+root          35  0.0  0.0      0     0 ?        S    16:20   0:00 [ksoftirqd/2]
+root          37  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/2:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    16:20   0:00 [cpuhp/3]
+root          39  0.0  0.0      0     0 ?        S    16:20   0:00 [idle_inject/3]
+root          40  0.0  0.0      0     0 ?        S    16:20   0:00 [migration/3]
+root          41  0.0  0.0      0     0 ?        S    16:20   0:00 [ksoftirqd/3]
+root          42  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/3:0-events]
+root          43  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/3:0H-events_highpri]
+root          44  0.0  0.0      0     0 ?        S    16:20   0:00 [cpuhp/4]
+root          45  0.0  0.0      0     0 ?        S    16:20   0:00 [idle_inject/4]
+root          46  0.0  0.0      0     0 ?        S    16:20   0:00 [migration/4]
+root          47  0.0  0.0      0     0 ?        S    16:20   0:00 [ksoftirqd/4]
+root          49  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/4:0H-events_highpri]
+root          50  0.0  0.0      0     0 ?        S    16:20   0:00 [cpuhp/5]
+root          51  0.0  0.0      0     0 ?        S    16:20   0:00 [idle_inject/5]
+root          52  0.0  0.0      0     0 ?        S    16:20   0:00 [migration/5]
+root          53  0.0  0.0      0     0 ?        S    16:20   0:00 [ksoftirqd/5]
+root          55  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/5:0H-events_highpri]
+root          56  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u257:0-events_unbound]
+root          58  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u259:0-kvfree_rcu_reclaim]
+root          59  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u260:0-events_unbound]
+root          61  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u262:0-kvfree_rcu_reclaim]
+root          62  0.0  0.0      0     0 ?        S    16:20   0:00 [kdevtmpfs]
+root          63  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-inet_frag_wq]
+root          64  0.0  0.0      0     0 ?        S    16:20   0:00 [kauditd]
+root          65  0.0  0.0      0     0 ?        S    16:20   0:00 [khungtaskd]
+root          66  0.0  0.0      0     0 ?        S    16:20   0:00 [oom_reaper]
+root          68  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-writeback]
+root          69  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u257:2-kvfree_rcu_reclaim]
+root          70  0.0  0.0      0     0 ?        S    16:20   0:00 [kcompactd0]
+root          71  0.0  0.0      0     0 ?        SN   16:20   0:00 [ksmd]
+root          72  0.1  0.0      0     0 ?        SN   16:20   0:00 [khugepaged]
+root          73  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-kintegrityd]
+root          74  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-kblockd]
+root          75  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-blkcg_punt_bio]
+root          76  0.0  0.0      0     0 ?        S    16:20   0:00 [irq/9-acpi]
+root          77  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/2:1-events]
+root          78  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/1:1-events]
+root          79  0.0  0.0      0     0 ?        S    16:20   0:00 [xen-balloon]
+root          80  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-tpm_dev_wq]
+root          81  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-ata_sff]
+root          82  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-edac-poller]
+root          83  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-devfreq_wq]
+root          84  0.0  0.0      0     0 ?        S    16:20   0:00 [watchdogd]
+root          85  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-quota_events_unbound]
+root          86  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u261:1-events_unbound]
+root          87  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/4:1-mm_percpu_wq]
+root          88  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/4:1H-kblockd]
+root          89  0.0  0.0      0     0 ?        S    16:20   0:00 [kswapd0]
+root          90  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-kthrotld]
+root          91  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-acpi_thermal_pm]
+root          92  0.0  0.0      0     0 ?        S    16:20   0:00 [xenbus]
+root          93  0.0  0.0      0     0 ?        S    16:20   0:00 [xenwatch]
+root          94  0.0  0.0      0     0 ?        S    16:20   0:00 [khvcd]
+root          95  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-mld]
+root          96  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u259:1-flush-202:0]
+root          97  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/5:1H-kblockd]
+root          98  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-ipv6_addrconf]
+root          99  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u262:1-events_unbound]
+root         101  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u261:2-events_freezable_pwr_efficient]
+root         108  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-kstrp]
+root         111  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u263:0]
+root         112  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u264:0]
+root         113  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u265:0]
+root         114  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u266:0]
+root         115  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u267:0]
+root         116  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u268:0]
+root         117  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/u269:0]
+root         118  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/0:1H-kblockd]
+root         146  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/3:1H-kblockd]
+root         159  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/1:1H-kblockd]
+root         188  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u260:1-events_power_efficient]
+root         189  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/2:1H-kblockd]
+root         190  0.0  0.0      0     0 ?        S    16:20   0:00 [scsi_eh_0]
+root         191  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-scsi_tmf_0]
+root         192  0.0  0.0      0     0 ?        S    16:20   0:00 [scsi_eh_1]
+root         193  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-scsi_tmf_1]
+root         194  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u262:2-events_unbound]
+root         197  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u258:1-events_unbound]
+root         198  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/5:2-cgroup_release]
+root         271  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/2:2-events]
+root         272  0.0  0.0      0     0 ?        S    16:20   0:00 [jbd2/xvda2-8]
+root         273  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-ext4-rsv-conversion]
+root         322  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/4:2-events]
+root         333  0.1  0.1  91780 21264 ?        Ss   16:20   0:00 /usr/lib/systemd/systemd-journald
+root         346  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u257:3-events_power_efficient]
+root         372  0.0  0.0   9096  4532 ?        Ss   16:20   0:00 /usr/lib/systemd/systemd-userdbd
+root         377  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/3:2-events]
+root         531  0.0  0.0      0     0 ?        S    16:20   0:00 [psimon]
+root         539  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/0:3-events]
+systemd+     544  0.0  0.0  85412  7244 ?        Ssl  16:20   0:00 /usr/lib/systemd/systemd-timesyncd
+root         558  0.0  0.0  43160 13732 ?        Ss   16:20   0:00 /usr/lib/systemd/systemd-udevd
+root         560  0.0  0.0      0     0 ?        S    16:20   0:00 [psimon]
+root         604  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/1:2-events]
+root         633  0.0  0.0      0     0 ?        I<   16:20   0:00 [kworker/R-cryptd]
+root         637  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/5:3-events]
+dbus         645  0.0  0.0   8132  4332 ?        Ss   16:20   0:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         646  0.0  0.0   6552  4624 ?        S    16:20   0:00 dbus-broker --log 10 --controller 9 --machine-id 9db66348af534bc48b52bc827f18def0 --max-bytes 536870912 --max-fds 4096 --ma
+root         647  0.0  0.1 496020 28828 ?        Ssl  16:20   0:00 /usr/bin/NetworkManager --no-daemon
+avahi        648  0.0  0.0   6192  4476 ?        Ss   16:20   0:00 avahi-daemon: running [monja.local]
+polkitd      649  0.1  0.0 383320 10912 ?        Ssl  16:20   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         651  0.0  0.0  10252  7844 ?        Ss   16:20   0:00 /usr/lib/systemd/systemd-logind
+avahi        675  0.0  0.0   6192  1628 ?        S    16:20   0:00 avahi-daemon: chroot helper
+root         685  0.0  0.0 391168 12736 ?        Ssl  16:20   0:00 /usr/bin/ModemManager
+root         732  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u258:2-events_unbound]
+root         733  0.0  0.0  22180  8652 ?        Ss   16:20   0:00 /usr/bin/cupsd -l
+root         742  0.0  0.0  12856  7568 ?        Ss   16:20   0:00 sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups
+root         744  0.0  0.0  13540  4724 ?        Ss   16:20   0:00 /usr/bin/xrdp-sesman --nodaemon
+root         752  0.0  0.0   7216  5296 ?        Ss   16:20   0:00 /usr/sbin/crond -n
+root         755  0.0  0.0  21644  7548 ?        Ss   16:20   0:00 /usr/bin/xrdp --nodaemon
+root         774  0.0  0.0      0     0 ?        I    16:20   0:00 [kworker/u259:2-events_unbound]
+root         776  0.0  0.0 381300  7828 ?        Ssl  16:20   0:00 /usr/bin/lightdm
+root         777  0.0  0.0   7548  2788 hvc0     Ss+  16:20   0:00 /usr/bin/agetty --noreset --noclear --keep-baud 115200,57600,38400,9600 - vt220
+root         784  0.1  0.3 847156 51608 tty7     Ssl+ 16:20   0:00 /usr/lib/Xorg :0 -seat seat0 -auth /run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         785  0.0  0.0 309328 10348 ?        Ssl  16:20   0:00 /usr/lib/accounts-daemon
+root         810  0.0  0.0 171860  9524 ?        Sl   16:20   0:00 lightdm --session-child 17 20
+root         816  0.0  0.0      0     0 ?        S    16:20   0:00 [psimon]
+lightdm      818  0.0  0.0  18532 12332 ?        Ss   16:20   0:00 /usr/lib/systemd/systemd --user
+lightdm      820  0.0  0.0  19564  3760 ?        S    16:20   0:00 (sd-pam)
+lightdm      829  0.2  0.3 884740 60620 ?        Ssl  16:20   0:01 /usr/bin/lightdm-gtk-greeter
+lightdm      832  0.0  0.0   7576  3808 ?        Ss   16:20   0:00 /usr/bin/dbus-broker-launch --scope user
+lightdm      833  0.0  0.0   4836  3036 ?        S    16:20   0:00 dbus-broker --log 11 --controller 10 --machine-id 9db66348af534bc48b52bc827f18def0 --max-bytes 100000000000000 --max-fds 25
+lightdm      834  0.0  0.0 380588  7620 ?        Ssl  16:20   0:00 /usr/lib/at-spi-bus-launcher
+lightdm      840  0.0  0.0   7576  3756 ?        S    16:20   0:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+lightdm      841  0.0  0.0   4836  2908 ?        S    16:20   0:00 dbus-broker --log 10 --controller 9 --machine-id 9db66348af534bc48b52bc827f18def0 --max-bytes 100000000000000 --max-fds 640
+lightdm      844  0.0  0.0 331672 12756 ?        Ssl  16:20   0:00 /usr/lib/gvfsd
+lightdm      850  0.0  0.0 325364  7520 ?        Sl   16:20   0:00 /usr/lib/gvfsd-fuse /run/user/964/gvfs -f
+lightdm      890  0.0  0.0 169496  6964 ?        Ssl  16:21   0:00 /usr/lib/gvfsd-metadata
+root         958  0.0  0.0  20008  8648 ?        S    16:21   0:00 lightdm --session-child 13 20
+lightdm      959  0.0  0.0 168000  7268 ?        Ssl  16:21   0:00 /usr/lib/at-spi2-registryd --use-gnome-session
+root        1063  0.0  0.0      0     0 ?        I    16:21   0:00 [kworker/u260:3-kvfree_rcu_reclaim]
+root        1065  0.0  0.0      0     0 ?        I    16:21   0:00 [kworker/u258:3-ext4-rsv-conversion]
+root        1083 23.8  0.4 122876 78168 ?        Sl   16:22   1:22 /usr/bin/xrdp --nodaemon
+root        1085  0.0  0.0  21372 10148 ?        S    16:22   0:00 xrdp-sesexec
+yoda        1091  0.0  0.0  18988 12412 ?        Ss   16:22   0:00 /usr/lib/systemd/systemd --user
+yoda        1093  0.0  0.0  19568  3744 ?        S    16:22   0:00 (sd-pam)
+yoda        1102  0.0  0.0 182408 11968 ?        SLsl 16:22   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+yoda        1107  0.0  0.0   7576  3792 ?        Ss   16:22   0:00 /usr/bin/dbus-broker-launch --scope user
+yoda        1108  0.0  0.0   4836  2968 ?        S    16:22   0:00 dbus-broker --log 11 --controller 10 --machine-id 9db66348af534bc48b52bc827f18def0 --max-bytes 100000000000000 --max-fds 25
+yoda        1109  8.0  1.1 574624 194824 ?       Rl   16:22   0:26 /usr/lib/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log
+yoda        1115  0.4  0.5 836164 95976 ?        Sl   16:22   0:01 xfce4-session
+yoda        1116  0.0  0.0 105156  7016 ?        Sl   16:22   0:00 /usr/bin/xrdp-chansrv
+yoda        1138  0.1  0.0   7696  4080 ?        Ss   16:22   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 4 --print-address 6 --session
+yoda        1144  0.0  0.0 331672 14852 ?        Sl   16:22   0:00 /usr/lib/gvfsd
+yoda        1150  0.0  0.0 399096  9732 ?        Sl   16:22   0:00 /usr/lib/gvfsd-fuse /run/user/1000/gvfs -f
+yoda        1160  0.0  0.0 380596  8340 ?        Sl   16:22   0:00 /usr/lib/at-spi-bus-launcher
+yoda        1166  0.0  0.0   7272  4656 ?        S    16:22   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=uni
+yoda        1168  0.0  0.0 308472  9200 ?        Sl   16:22   0:00 /usr/lib/xfce4/xfconf/xfconfd
+yoda        1174  0.0  0.0 167980  8100 ?        Sl   16:22   0:00 /usr/lib/at-spi2-registryd --use-gnome-session
+yoda        1181  0.0  0.0  12700  1900 ?        Ss   16:22   0:00 /sbin/ssh-agent -s
+yoda        1193  0.0  0.0 155944  5408 ?        SLs  16:22   0:00 /usr/bin/gpg-agent --supervised
+yoda        1195  2.8  0.7 1062272 128476 ?      Sl   16:22   0:09 xfwm4
+yoda        1229  0.0  0.0  97696 10144 ?        Ssl  16:22   0:00 /usr/bin/pipewire
+yoda        1230  0.0  0.1 555332 16628 ?        Ssl  16:22   0:00 /usr/bin/wireplumber
+yoda        1231  0.0  0.0  99532 11000 ?        Ssl  16:22   0:00 /usr/bin/pipewire-pulse
+rtkit       1241  0.0  0.0  21284  3340 ?        SNsl 16:22   0:00 /usr/lib/rtkit-daemon
+yoda        1271  0.0  0.0 165616  6440 ?        Sl   16:22   0:00 /usr/lib/dconf-service
+yoda        1275  0.5  0.3 635340 57132 ?        Sl   16:22   0:01 xfce4-panel
+yoda        1283  0.5  0.3 641552 59596 ?        Sl   16:22   0:01 Thunar --daemon
+yoda        1290  0.8  0.3 626804 57232 ?        Sl   16:22   0:02 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libwhiskermenu.so 8 12582919 whiskermenu Меню Whisker Показыв
+yoda        1307  0.1  0.0 169632  9244 ?        Sl   16:22   0:00 /usr/lib/gvfsd-metadata
+yoda        1313  0.2  0.2 615632 48864 ?        Sl   16:22   0:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libsystray.so 6 12582921 systray Расширение «Лоток Состояния»
+yoda        1315  0.2  0.3 687276 52736 ?        Sl   16:22   0:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libpulseaudio-plugin.so 9 12582922 pulseaudio Модуль PulseAud
+yoda        1317  0.2  0.3 622352 51092 ?        Sl   16:22   0:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libactions.so 2 12582923 actions Системные действия Завершени
+yoda        1327  1.3  0.5 787500 86728 ?        Rl   16:22   0:04 xfdesktop
+yoda        1379  0.2  0.2 610236 47592 ?        Sl   16:22   0:00 /usr/lib/xfce4/notifyd/xfce4-notifyd
+yoda        1533  0.0  0.0  12864  2020 ?        Ssl  16:22   0:00 xcape -e Super_L Alt_L F1
+yoda        1536  0.2  0.4 628028 65732 ?        Sl   16:22   0:00 xfce4-clipman
+yoda        1537  5.3  1.7 1175476 289652 ?      SLl  16:22   0:17 /usr/bin/nextcloud --background
+yoda        1539  0.2  0.2 461760 39364 ?        Sl   16:22   0:00 xfce4-power-manager
+root        1544  0.0  0.0      0     0 ?        I    16:22   0:00 [kworker/u261:3-flush-202:0]
+yoda        1548  0.2  0.3 672648 62592 ?        Sl   16:22   0:00 nm-applet
+yoda        1551  0.0  0.0 316324 10836 ?        Sl   16:22   0:00 /usr/lib/geoclue-2.0/demos/agent
+yoda        1557  0.2  0.3 636784 57364 ?        Sl   16:22   0:00 pamac-tray
+yoda        1562  0.3  0.4 646928 70808 ?        Sl   16:22   0:01 /usr/bin/python /sbin/blueman-applet
+yoda        1571  0.2  0.2 595428 43044 ?        Sl   16:22   0:00 xfce4-screensaver
+yoda        1573  0.0  0.0 531004  9784 ?        Sl   16:22   0:00 xiccd
+yoda        1578  0.0  0.3 838240 52444 ?        SNl  16:22   0:00 /usr/lib/tumbler-1/tumblerd
+yoda        1579  0.1  0.2 320648 37044 ?        Sl   16:22   0:00 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+yoda        1585  0.0  0.1 234332 32276 ?        Sl   16:22   0:00 msm_notifier
+yoda        1586  0.1  0.2 542952 39332 ?        Ssl  16:22   0:00 /usr/lib/xfce4/notifyd/xfce4-notifyd
+colord      1598  0.0  0.1 317300 17176 ?        Ssl  16:22   0:00 /usr/lib/colord
+yoda        1663  0.0  0.0 331672 14668 ?        Ssl  16:22   0:00 /usr/lib/gvfsd
+yoda        1683  0.0  0.1 478044 18732 ?        Sl   16:22   0:00 /usr/lib/xdg-desktop-portal
+yoda        1698  0.0  0.0 307948  8624 ?        Sl   16:22   0:00 /usr/lib/xdg-permission-store
+yoda        1708  0.0  0.0 539464  9576 ?        Sl   16:22   0:00 /usr/lib/xdg-document-portal
+root        1715  0.0  0.0   2984  2172 ?        Ss   16:22   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+yoda        1720  0.1  0.2 534420 37736 ?        Sl   16:22   0:00 /usr/lib/xdg-desktop-portal-gtk
+root        1727  0.0  0.0 319740 12712 ?        Ssl  16:22   0:00 /usr/lib/upowerd
+yoda        1886  0.0  0.1 585128 20188 ?        Sl   16:22   0:00 /usr/lib/gvfs-udisks2-volume-monitor
+root        1890  0.0  0.0 479188 14748 ?        Ssl  16:22   0:00 /usr/lib/udisks2/udisksd
+yoda        1931  0.0  0.0 310628  9984 ?        Sl   16:22   0:00 /usr/lib/gvfs-gphoto2-volume-monitor
+yoda        1937  0.0  0.0 392260 11212 ?        Sl   16:22   0:00 /usr/lib/gvfs-afc-volume-monitor
+yoda        1944  0.0  0.0 308476  9160 ?        Sl   16:22   0:00 /usr/lib/gvfs-mtp-volume-monitor
+yoda        1961  0.0  0.0 553084 15816 ?        Sl   16:22   0:00 /usr/lib/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
+yoda        2462  0.8  0.3 648200 65276 ?        Sl   16:22   0:02 /sbin/xfce4-terminal
+yoda        2539  1.0  0.0  13376 11204 pts/0    Ss   16:22   0:03 zsh
+yoda        2553  0.0  0.0  11080  6156 pts/0    S    16:22   0:00 zsh
+yoda        2578  0.0  0.0  12360  7176 pts/0    S    16:22   0:00 zsh
+yoda        2579  0.0  0.0  12344  6776 pts/0    S    16:22   0:00 zsh
+yoda        2581  0.0  0.0 106580  4876 pts/0    Sl   16:22   0:00 /usr/share/zsh-theme-powerlevel10k/gitstatus/usrbin/gitstatusd -G v1.5.5 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 12
+yoda        2685  7.8  2.4 34582240 399628 ?     Sl   16:22   0:23 /opt/yandex/browser/yandex_browser
+yoda        2694  0.0  0.0   6000  4024 ?        S    16:22   0:00 cat
+yoda        2695  0.0  0.0   6000  4028 ?        S    16:22   0:00 cat
+yoda        2697  0.0  0.0 33578112 4368 ?       Sl   16:22   0:00 /opt/yandex/browser/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/hom
+yoda        2699  0.0  0.0 33568876 3796 ?       Sl   16:22   0:00 /opt/yandex/browser/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database
+yoda        2705  0.0  0.4 33995604 77484 ?      S    16:22   0:00 /opt/yandex/browser/yandex_browser --type=zygote --no-zygote-sandbox --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand
+yoda        2706  0.0  0.4 33999020 77828 ?      S    16:22   0:00 /opt/yandex/browser/yandex_browser --type=zygote --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crashpa
+yoda        2710  0.0  0.1 33999172 20332 ?      S    16:22   0:00 /opt/yandex/browser/yandex_browser --type=zygote --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crashpa
+yoda        2748  1.9  0.8 33997528 133680 ?     Sl   16:22   0:05 /opt/yandex/browser/yandex_browser --type=utility --utility-sub-type=network.mojom.NetworkService --lang=ru --service-sandb
+yoda        2772  0.0  0.3 34057976 60044 ?      Sl   16:22   0:00 /opt/yandex/browser/yandex_browser --type=utility --utility-sub-type=storage.mojom.StorageService --lang=ru --service-sandb
+yoda        2851  0.0  0.5 34044672 87528 ?      Sl   16:23   0:00 /opt/yandex/browser/yandex_browser --type=utility --utility-sub-type=audio.mojom.AudioService --lang=ru --service-sandbox-t
+yoda        2862  0.0  0.6 1283605436 112488 ?   Sl   16:23   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        2875  0.1  1.2 1283695268 212312 ?   Sl   16:23   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        2891  0.3  0.9 1283615900 160972 ?   Sl   16:23   0:01 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        3026  1.0  0.7 34214636 128704 ?     Sl   16:23   0:02 /opt/yandex/browser/yandex_browser --type=gpu-process --ozone-platform=x11 --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb -
+yoda        3596  0.1  0.2 395856 38572 ?        Sl   16:23   0:00 xfsettingsd --replace
+yoda        3606  0.0  0.0   8120  5784 ?        S    16:23   0:00 sh -c "/home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/start-tor-browser" || ([ !  -x "/home/yoda/tor-browse
+yoda        3607  0.0  0.0   8252  6028 ?        S    16:23   0:00 bash /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/start-tor-browser
+yoda        3619 17.6  2.0 3022940 340400 ?      Sl   16:23   0:49 ./firefox.real
+yoda        3701  0.0  0.2 446580 39056 ?        S    16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -ipcHandle 0 -signalPipe 1 -initia
+yoda        3718  0.0  0.2 459844 36476 ?        Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -parentBuildID 20261026134500 -pre
+yoda        3734  1.0  0.6 562620 111676 ?       Sl   16:23   0:02 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/TorBrowser/Tor/tor -f /home/yoda/tor-browser-linux-x86_64-15
+yoda        3740  4.4  0.7 2614924 129052 ?      Sl   16:23   0:12 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -isForBrowser -prefsHandle 0:28867
+yoda        3749  0.0  0.2 693956 44932 ?        Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -parentBuildID 20261026134500 -pre
+yoda        3806  0.1  0.7 2616500 119604 ?      Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -isForBrowser -prefsHandle 0:28867
+yoda        3862  0.0  0.2 457896 34892 ?        Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -parentBuildID 20261026134500 -san
+yoda        3869  0.0  0.4 2576444 76460 ?       Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -isForBrowser -prefsHandle 0:27258
+yoda        3877  0.1  0.4 2576444 76988 ?       Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -isForBrowser -prefsHandle 0:27258
+yoda        3917  0.0  0.4 2576444 76220 ?       Sl   16:23   0:00 /home/yoda/tor-browser-linux-x86_64-15.0.2/tor-browser/Browser/firefox.real -contentproc -isForBrowser -prefsHandle 0:27258
+yoda        3944  0.0  0.1 1803624 22144 ?       Sl   16:23   0:00 ./TorBrowser/Tor/PluggableTransports/lyrebird
+yoda        4509  0.0  0.3 34041072 52280 ?      Sl   16:25   0:00 /opt/yandex/browser/yandex_browser --type=utility --utility-sub-type=autofill.mojom.TflPredictionsService --lang=ru --servi
+yoda        4866  0.0  0.4 1283586396 78192 ?    Sl   16:25   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+root        4892  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/5:0-events]
+yoda        4893  7.7  1.5 1283698900 253784 ?   Sl   16:26   0:08 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        4922  0.1  0.6 1283595236 111660 ?   Sl   16:26   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        4932  0.4  0.9 1283617176 151520 ?   Sl   16:26   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        4945  0.6  1.1 1285314540 187896 ?   Sl   16:26   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+yoda        4961  0.0  0.0   3252  2248 ?        S    16:26   0:00 bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.ca
+yoda        4964  0.0  0.0   3252  1320 ?        S    16:26   0:00 bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.ca
+yoda        4965  0.1  0.1 342060 19816 ?        Sl   16:26   0:00 /usr/lib/glycin-loaders/2+/glycin-svg --dbus-fd 24
+yoda        4982  0.0  0.0      0     0 ?        Z    16:26   0:00 [dbus-daemon] <defunct>
+root        5013  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/1:0-events]
+root        5310  0.0  0.0   9612  4724 ?        S    16:27   0:00 systemd-userwork: waiting...
+root        5311  0.0  0.0   9612  4752 ?        S    16:27   0:00 systemd-userwork: waiting...
+yoda        5318  7.6  0.7 1285323116 128864 ?   Sl   16:27   0:00 /opt/yandex/browser/yandex_browser --type=renderer --user-id=18dd936e-4ae9-49c4-970a-148df2f857fb --brand-id=yandex --crash
+root        5342  0.0  0.0   9612  4704 ?        S    16:27   0:00 systemd-userwork: waiting...
+yoda        5448  0.0  0.0   6192  4388 pts/0    S+   16:27   0:00 script
+yoda        5452  9.2  0.0  13260 11016 pts/1    Ss   16:27   0:00 zsh -i
+yoda        5478  0.0  0.0  11104  6164 pts/1    S    16:27   0:00 zsh -i
+yoda        5479  0.0  0.0  10956  3476 pts/1    S    16:27   0:00 zsh -i
+yoda        5502  0.0  0.0  12368  7172 pts/1    S    16:27   0:00 zsh -i
+yoda        5503  0.0  0.0  12352  6832 pts/1    S    16:27   0:00 zsh -i
+yoda        5505  0.0  0.0 106584  5012 pts/1    Sl   16:27   0:00 /usr/share/zsh-theme-powerlevel10k/gitstatus/usrbin/gitstatusd -G v1.5.5 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 12
+yoda        5518  0.0  0.0   6348  4392 pts/1    S    16:27   0:00 sleep 5
+yoda        5523  200  0.0   9264  6092 pts/1    R+   16:27   0:00 ps aux
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              ]2;yoda@monja:~]1;~]7;file://monja/home/yoda[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;30m [0m[38;5;30m[47m[47m[38;5;30m [0m[38;5;30m[47m[48;5;30m[37m[0m[37m[48;5;30m[48;5;30m[38;5;254m  [1m[38;5;254m[48;5;30m[38;5;255m~[0m[38;5;255m[48;5;30m[48;5;30m[38;5;254m[0m[38;5;254m[48;5;30m[48;5;30m[38;5;254m [0m[38;5;254m[48;5;30m[49m[38;5;30m[0m[38;5;30m[49m[39m [0m[49m[39m[K[174C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[49m[39m[178D[?2004hp[1m[31mp[0m[39m[1m[31mp[0m[39m[38;5;244ms aux[39m[1m[31mp[1m[31ms[0m[39m[0m[32mp[0m[32ms[39m[39m [39m [39m [39m [?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mps[39m[K[?25h
+]2;ps]1;    PID TTY          TIME CMD
+   5452 pts/1    00:00:00 zsh
+   5478 pts/1    00:00:00 zsh
+   5502 pts/1    00:00:00 zsh
+   5503 pts/1    00:00:00 zsh
+   5505 pts/1    00:00:00 gitstatusd
+   5545 pts/1    00:00:00 ps
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              ]2;yoda@monja:~]1;~]7;file://monja/home/yoda[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;30m [0m[38;5;30m[47m[47m[38;5;30m [0m[38;5;30m[47m[48;5;30m[37m[0m[37m[48;5;30m[48;5;30m[38;5;254m  [1m[38;5;254m[48;5;30m[38;5;255m~[0m[38;5;255m[48;5;30m[48;5;30m[38;5;254m[0m[38;5;254m[48;5;30m[48;5;30m[38;5;254m [0m[38;5;254m[48;5;30m[49m[38;5;30m[0m[38;5;30m[49m[39m [0m[49m[39m[K[174C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[49m[39m[178D[?2004ht[4mt[24m[4mt[24m[38;5;244mop -b &[39m[4mt[39m[4mo[24m[4mt[4mo[39m[4mp[24m[24m[32mt[24m[32mo[24m[32mp[39m[32mp[32m [39m[32mp[39m[39m [39m-[39mb[39m [39m&[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mtop[39m -b &[K[?25h
+]2;top -b &]1;[1] 5574
+[1m[7m%[27m[1m[0m                                                                                                                                                                                              ]2;yoda@monja:~]1;~]7;file://monja/home/yoda[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;30m [0m[38;5;30m[47m[47m[38;5;30m [0m[38;5;30m[47m[48;5;30m[37m[0m[37m[48;5;30m[48;5;30m[38;5;254m  [1m[38;5;254m[48;5;30m[38;5;255m~[0m[38;5;255m[48;5;30m[48;5;30m[38;5;254m[0m[38;5;254m[48;5;30m[48;5;30m[38;5;254m [0m[38;5;254m[48;5;30m[49m[38;5;30m[0m[38;5;30m[49m[39m [0m[49m[39m[K[170C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[0m[32m[40m[40m[36m [0m[36m[40m[40m[36m[0m[36m[40m[40m[36m [0m[36m[40m[49m[39m[178D[?2004htop - 16:28:13 up 7 min,  1 user,  load average: 0,51, 0,60, 0,30
+Tasks: 285 total, 2 running, 282 sleep, 0 d-sleep, 0 stopped, 1 zombie
+%Cpu(s): 26,1 us,  4,3 sy,  0,7 ni, 68,1 id,  0,0 wa,  0,7 hi,  0,0 si,  0,0 st 
+MiB Mem :  15967,7 total,  12378,3 free,   2202,5 used,   1838,9 buff/cache     
+MiB Swap:   1024,0 total,   1024,0 free,      0,0 used.  13765,2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1109 yoda      20   0  574624 194824  99676 S  73,8   1,2   0:27.78 Xorg
+   1083 root      20   0  127376  78168   9476 R  46,2   0,5   1:22.98 xrdp
+   5452 yoda      20   0   13260  10992   7016 S  23,1   0,1   0:00.81 zsh
+   5574 yoda      25   5   10472   7472   5344 R   9,2   0,0   0:00.03 top
+   1195 yoda      20   0 1062272 128476  99360 S   4,6   0,8   0:09.45 xfwm4
+   1275 yoda      20   0  635340  57132  43164 S   4,6   0,3   0:01.91 xfce4-panel
+   1283 yoda      20   0  641552  59596  43820 S   4,6   0,4   0:01.82 Thunar
+   1327 yoda      20   0  787500  86728  55192 S   4,6   0,5   0:04.61 xfdesktop
+   2462 yoda      20   0  648200  65276  48324 S   4,6   0,4   0:02.94 xfce4-terminal
+      1 root      20   0   20628  14756  10872 S   0,0   0,1   0:02.15 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_workqueue_release
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kvfree_rcu_reclaim
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_gp
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-sync_wq
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-slub_flushwq
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-netns
+      9 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0-events
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u256:0-events_unbound
+     13 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mm_percpu_wq
+     14 root      20   0       0      0      0 I   0,0   0,0   0:00.08 kworker/u256:1-ipv6_addrconf
+     15 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     16 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     17 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     18 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/0
+     19 root      -2   0       0      0      0 I   0,0   0,0   0:00.26 rcu_preempt
+     20 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 rcub/1
+     21 root      20   0       0      0      0 S   0,0   0,0   0:00.02 rcu_exp_par_gp_kthread_worker/1
+     22 root      20   0       0      0      0 S   0,0   0,0   0:00.01 rcu_exp_gp_kthread_worker
+     23 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0
+     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     25 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/1
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/1
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/2
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/2
+     37 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     39 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     40 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/3
+     41 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/3
+     42 root      20   0       0      0      0 I   0,0   0,0   0:00.04 kworker/3:0-events
+     43 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/4
+     45 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/4
+     46 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/4
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/4
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0H-events_highpri
+     50 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/5
+     51 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/5
+     52 root      rt   0       0      0      0 S   0,0   0,0   0:00.32 migration/5
+     53 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/5
+     55 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0H-events_highpri
+     56 root      20   0       0      0      0 I   0,0   0,0   0:00.07 kworker/u257:0-events_unbound
+     58 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u259:0-kvfree_rcu_reclaim
+     59 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u260:0-events_power_efficient
+     61 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:0-kvfree_rcu_reclaim
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-inet_frag_wq
+     64 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     65 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     66 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-writeback
+     69 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u257:2-kvfree_rcu_reclaim
+     70 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kcompactd0
+     71 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     72 root      39  19       0      0      0 S   0,0   0,0   0:00.47 khugepaged
+     73 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kintegrityd
+     74 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kblockd
+     75 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-blkcg_punt_bio
+     76 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/9-acpi
+     77 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:1-events
+     78 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/1:1-events
+     79 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xen-balloon
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-tpm_dev_wq
+     81 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ata_sff
+     82 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-edac-poller
+     83 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-devfreq_wq
+     84 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     85 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-quota_events_unbound
+     86 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:1-ext4-rsv-conversion
+     87 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/4:1-mm_percpu_wq
+     88 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:1H-kblockd
+     89 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0
+     90 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kthrotld
+     91 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-acpi_thermal_pm
+     92 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus
+     93 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenwatch
+     94 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khvcd
+     95 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mld
+     96 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u259:1-events_unbound
+     97 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:1H-kblockd
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ipv6_addrconf
+     99 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:1-events_unbound
+    101 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:2-events_unbound
+    108 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kstrp
+    111 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u263:0
+    112 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u264:0
+    113 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u265:0
+    114 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u266:0
+    115 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u267:0
+    116 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u268:0
+    117 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u269:0
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:1H-kblockd
+    146 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/3:1H-kblockd
+    159 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/1:1H-kblockd
+    188 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u260:1-events_unbound
+    189 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/2:1H-kblockd
+    190 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_0
+    191 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_0
+    192 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1
+    193 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_1
+    194 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/u262:2-events_unbound
+    197 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u258:1-events_unbound
+    198 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:2-cgroup_release
+    271 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:2-events
+    272 root      20   0       0      0      0 S   0,0   0,0   0:00.13 jbd2/xvda2-8
+    273 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ext4-rsv-conversion
+    322 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/4:2-events
+    333 root      20   0   91780  21264  20088 S   0,0   0,1   0:00.57 systemd-journal
+    346 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u257:3-writeback
+    372 root      20   0    9096   4532   3968 S   0,0   0,0   0:00.05 systemd-userdbd
+    377 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/3:2-events
+    531 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    539 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/0:3-rcu_gp
+    544 systemd+  20   0   85412   7244   6476 S   0,0   0,0   0:00.10 systemd-timesyn
+    558 root      20   0   43160  13732   8864 S   0,0   0,1   0:00.30 systemd-udevd
+    560 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    604 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/1:2-events
+    633 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-cryptd
+    637 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/5:3-events
+    645 dbus      20   0    8132   4332   3460 S   0,0   0,0   0:00.08 dbus-broker-lau
+    646 dbus      20   0    6552   4624   2764 S   0,0   0,0   0:00.22 dbus-broker
+    647 root      20   0  496020  28828  24892 S   0,0   0,2   0:00.25 NetworkManager
+    648 avahi     20   0    6192   4476   4120 S   0,0   0,0   0:00.12 avahi-daemon
+    649 polkitd   20   0  383320  10912   7976 S   0,0   0,1   0:00.75 polkitd
+    651 root      20   0   10252   7844   6824 S   0,0   0,0   0:00.20 systemd-logind
+    675 avahi     20   0    6192   1628   1320 S   0,0   0,0   0:00.00 avahi-daemon
+    685 root      20   0  391168  12736  10468 S   0,0   0,1   0:00.20 ModemManager
+    732 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u258:2-events_unbound
+    733 root      20   0   22180   8652   7440 S   0,0   0,1   0:00.02 cupsd
+    742 root      20   0   12856   7568   6340 S   0,0   0,0   0:00.05 sshd
+    744 root      20   0   13540   4724   3864 S   0,0   0,0   0:00.01 xrdp-sesman
+    752 root      20   0    7216   5296   4500 S   0,0   0,0   0:00.01 crond
+    755 root      20   0   21644   7548   6356 S   0,0   0,0   0:00.05 xrdp
+    774 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u259:2-kvfree_rcu_reclaim
+    776 root      20   0  381300   7828   7000 S   0,0   0,0   0:00.05 lightdm
+    777 root      20   0    7548   2788   2580 S   0,0   0,0   0:00.02 agetty
+    784 root      20   0  847156  51608  24280 S   0,0   0,3   0:00.64 Xorg
+    785 root      20   0  309328  10348   9504 S   0,0   0,1   0:00.15 accounts-daemon
+    810 root      20   0  171860   9524   8532 S   0,0   0,1   0:00.02 lightdm
+    816 root      -2   0       0      0      0 S   0,0   0,0   0:00.02 psimon
+    818 lightdm   20   0   18532  12332  10248 S   0,0   0,1   0:00.31 systemd
+    820 lightdm   20   0   19564   3760   2164 S   0,0   0,0   0:00.00 (sd-pam)
+    829 lightdm   20   0  884740  60620  42160 S   0,0   0,4   0:01.14 lightdm-gtk-gre
+    832 lightdm   20   0    7576   3808   3500 S   0,0   0,0   0:00.03 dbus-broker-lau
+    833 lightdm   20   0    4836   3036   2764 S   0,0   0,0   0:00.02 dbus-broker
+    834 lightdm   20   0  380588   7620   6940 S   0,0   0,0   0:00.03 at-spi-bus-laun
+    840 lightdm   20   0    7576   3756   3484 S   0,0   0,0   0:00.00 dbus-broker-lau
+    841 lightdm   20   0    4836   2908   2720 S   0,0   0,0   0:00.00 dbus-broker
+    844 lightdm   20   0  331672  12756  10884 S   0,0   0,1   0:00.03 gvfsd
+    850 lightdm   20   0  325364   7520   6704 S   0,0   0,0   0:00.02 gvfsd-fuse
+    890 lightdm   20   0  169496   6964   6320 S   0,0   0,0   0:00.04 gvfsd-metadata
+    958 root      20   0   20008   8648   7624 S   0,0   0,1   0:00.01 lightdm
+    959 lightdm   20   0  168000   7268   6640 S   0,0   0,0   0:00.02 at-spi2-registr
+   1063 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u260:3-kvfree_rcu_reclaim
+   1065 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u258:3-events_unbound
+   1085 root      20   0   21372  10148   8508 S   0,0   0,1   0:00.03 xrdp-sesexec
+   1091 yoda      20   0   18988  12412  10172 S   0,0   0,1   0:00.31 systemd
+   1093 yoda      20   0   19568   3744   2152 S   0,0   0,0   0:00.00 (sd-pam)
+   1102 yoda      20   0  182408  11968  10944 S   0,0   0,1   0:00.05 gnome-keyring-d
+   1107 yoda      20   0    7576   3792   3488 S   0,0   0,0   0:00.01 dbus-broker-lau
+   1108 yoda      20   0    4836   2968   2692 S   0,0   0,0   0:00.02 dbus-broker
+   1115 yoda      20   0  836164  95976  79340 S   0,0   0,6   0:01.49 xfce4-session
+   1116 yoda      20   0  105156   7016   5736 S   0,0   0,0   0:00.02 xrdp-chansrv
+   1138 yoda      20   0    7696   4080   2292 S   0,0   0,0   0:00.60 dbus-daemon
+   1144 yoda      20   0  331672  14852  12932 S   0,0   0,1   0:00.05 gvfsd
+   1150 yoda      20   0  399096   9732   8896 S   0,0   0,1   0:00.01 gvfsd-fuse
+   1160 yoda      20   0  380596   8340   7612 S   0,0   0,1   0:00.01 at-spi-bus-laun
+   1166 yoda      20   0    7272   4656   3892 S   0,0   0,0   0:00.08 dbus-daemon
+   1168 yoda      20   0  308472   9200   8352 S   0,0   0,1   0:00.29 xfconfd
+   1174 yoda      20   0  167980   8100   7368 S   0,0   0,0   0:00.10 at-spi2-registr
+   1181 yoda      20   0   12700   1900    832 S   0,0   0,0   0:00.00 ssh-agent
+   1193 yoda      20   0  155944   5408   5088 S   0,0   0,0   0:00.02 gpg-agent
+   1229 yoda      20   0   97696  10144   8060 S   0,0   0,1   0:00.06 pipewire
+   1230 yoda      20   0  555332  16628  13148 S   0,0   0,1   0:00.25 wireplumber
+   1231 yoda      20   0   99532  11000   9228 S   0,0   0,1   0:00.05 pipewire-pulse
+   1241 rtkit     21   1   21284   3340   3120 S   0,0   0,0   0:00.04 rtkit-daemon
+   1271 yoda      20   0  165616   6440   5884 S   0,0   0,0   0:00.02 dconf-service
+   1290 yoda      20   0  626804  57232  43104 S   0,0   0,4   0:02.96 wrapper-2.0
+   1307 yoda      20   0  169632   9244   8472 S   0,0   0,1   0:00.52 gvfsd-metadata
+   1313 yoda      20   0  615632  48864  35768 S   0,0   0,3   0:00.79 wrapper-2.0
+   1315 yoda      20   0  687276  52736  40072 S   0,0   0,3   0:00.76 wrapper-2.0
+   1317 yoda      20   0  622352  51092  39120 S   0,0   0,3   0:00.74 wrapper-2.0
+   1379 yoda      20   0  610236  47592  36464 S   0,0   0,3   0:00.71 xfce4-notifyd
+   1533 yoda      20   0   12864   2020   1716 S   0,0   0,0   0:00.01 xcape
+   1536 yoda      20   0  628028  65732  40540 S   0,0   0,4   0:00.70 xfce4-clipman
+   1537 yoda      20   0 1175476 289652 225716 S   0,0   1,8   0:17.81 nextcloud
+   1539 yoda      20   0  461760  39364  27252 S   0,0   0,2   0:00.70 xfce4-power-man
+   1544 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u261:3-flush-202:0
+   1548 yoda      20   0  672648  62592  48164 S   0,0   0,4   0:00.77 nm-applet
+   1551 yoda      20   0  316324  10836   9952 S   0,0   0,1   0:00.00 agent
+   1557 yoda      20   0  636784  57364  43736 S   0,0   0,4   0:00.71 pamac-tray
+   1562 yoda      20   0  646928  70808  39572 S   0,0   0,4   0:01.12 blueman-applet
+   1571 yoda      20   0  595428  43044  31700 S   0,0   0,3   0:00.94 xfce4-screensav
+   1573 yoda      20   0  531004   9784   8416 S   0,0   0,1   0:00.09 xiccd
+   1579 yoda      20   0  320648  37044  26664 S   0,0   0,2   0:00.58 polkit-gnome-au
+   1585 yoda      20   0  234332  32276  29140 S   0,0   0,2   0:00.25 msm_notifier
+   1586 yoda      20   0  542952  39332  27956 S   0,0   0,2   0:00.58 xfce4-notifyd
+   1598 colord    20   0  317300  17176  12160 S   0,0   0,1   0:00.19 colord
+   1663 yoda      20   0  331672  14668  12800 S   0,0   0,1   0:00.03 gvfsd
+   1683 yoda      20   0  478044  18732  15644 S   0,0   0,1   0:00.10 xdg-desktop-por
+   1698 yoda      20   0  307948   8624   8092 S   0,0   0,1   0:00.00 xdg-permission-
+   1708 yoda      20   0  539464   9576   8896 S   0,0   0,1   0:00.03 xdg-document-po
+   1715 root      20   0    2984   2172   2064 S   0,0   0,0   0:00.00 fusermount3
+   1720 yoda      20   0  534420  37736  26968 S   0,0   0,2   0:00.56 xdg-desktop-por
+   1727 root      20   0  319740  12712  10928 S   0,0   0,1   0:00.10 upowerd
+   1886 yoda      20   0  585128  20188  17820 S   0,0   0,1   0:00.04 gvfs-udisks2-vo
+   1890 root      20   0  479188  14748  12460 S   0,0   0,1   0:00.06 udisksd
+   1931 yoda      20   0  310628   9984   9208 S   0,0   0,1   0:00.00 gvfs-gphoto2-vo
+   1937 yoda      20   0  392260  11212   9916 S   0,0   0,1   0:00.01 gvfs-afc-volume
+   1944 yoda      20   0  308476   9160   8512 S   0,0   0,1   0:00.01 gvfs-mtp-volume
+   1961 yoda      20   0  553084  15816  13652 S   0,0   0,1   0:00.03 gvfsd-trash
+   2539 yoda      20   0   13376  11204   7140 S   0,0   0,1   0:03.28 zsh
+   2553 yoda      20   0   11080   6156   4132 S   0,0   0,0   0:00.00 zsh
+   2578 yoda      20   0   12360   7176   3956 S   0,0   0,0   0:00.00 zsh
+   2579 yoda      20   0   12344   6776   3560 S   0,0   0,0   0:00.00 zsh
+   2581 yoda      20   0  106580   4876   4536 S   0,0   0,0   0:00.01 gitstatusd
+   2685 yoda      20   0   33,0g 399408 267964 S   0,0   2,4   0:23.80 yandex_browser
+   2694 yoda      20   0    6000   4024   3920 S   0,0   0,0   0:00.00 cat
+   2695 yoda      20   0    6000   4028   3920 S   0,0   0,0   0:00.00 cat
+   2697 yoda      20   0   32,0g   4368   4008 S   0,0   0,0   0:00.00 chrome_crashpad
+   2699 yoda      20   0   32,0g   3796   3464 S   0,0   0,0   0:00.00 chrome_crashpad
+   2705 yoda      20   0   32,4g  77484  60820 S   0,0   0,5   0:00.10 yandex_browser
+   2706 yoda      20   0   32,4g  77828  61204 S   0,0   0,5   0:00.08 yandex_browser
+   2710 yoda      20   0   32,4g  20332   3484 S   0,0   0,1   0:00.07 yandex_browser
+   2748 yoda      20   0   32,4g 133844 103952 S   0,0   0,8   0:05.89 yandex_browser
+   2772 yoda      20   0   32,5g  60044  41568 S   0,0   0,4   0:00.15 yandex_browser
+   2851 yoda      20   0   32,5g  87528  72240 S   0,0   0,5   0:00.12 yandex_browser
+   2862 yoda      20   0 1224,1g 112488  84652 S   0,0   0,7   0:00.21 yandex_browser
+   2875 yoda      20   0 1224,2g 212316 185004 S   0,0   1,3   0:00.59 yandex_browser
+   2891 yoda      20   0 1224,2g 160976 116180 S   0,0   1,0   0:01.01 yandex_browser
+   3026 yoda      20   0   32,6g 128704 105732 S   0,0   0,8   0:02.97 yandex_browser
+   3596 yoda      20   0  395856  38572  27716 S   0,0   0,2   0:00.40 xfsettingsd
+   3606 yoda      20   0    8120   5784   5480 S   0,0   0,0   0:00.00 sh
+   3607 yoda      20   0    8252   6028   5652 S   0,0   0,0   0:00.00 bash
+   3619 yoda      20   0 3022940 340400 182868 S   0,0   2,1   0:50.00 firefox.real
+   3701 yoda      20   0  446580  39056  29440 S   0,0   0,2   0:00.09 forkserver
+   3718 yoda      20   0  459844  36476  25608 S   0,0   0,2   0:00.04 Socket Process
+   3734 yoda      20   0  562620 111676  50720 S   0,0   0,7   0:02.84 tor
+   3740 yoda      20   0 2614924 129052  97660 S   0,0   0,8   0:12.44 Privileged Cont
+   3749 yoda      20   0  693956  44932  31776 S   0,0   0,3   0:00.06 RDD Process
+   3806 yoda      20   0 2616500 119604  88392 S   0,0   0,7   0:00.55 WebExtensions
+   3862 yoda      20   0  457896  34892  24136 S   0,0   0,2   0:00.03 Utility Process
+   3869 yoda      20   0 2576444  76460  60404 S   0,0   0,5   0:00.09 Web Content
+   3877 yoda      20   0 2576444  76988  60940 S   0,0   0,5   0:00.35 Web Content
+   3917 yoda      20   0 2576444  76220  60200 S   0,0   0,5   0:00.10 Web Content
+   3944 yoda      20   0 1803624  22144  13140 S   0,0   0,1   0:00.06 lyrebird
+   4509 yoda      20   0   32,5g  52280  34012 S   0,0   0,3   0:00.04 yandex_browser
+   4866 yoda      20   0 1224,1g  78192  55184 S   0,0   0,5   0:00.06 yandex_browser
+   4892 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0-events
+   4893 yoda      20   0 1224,2g 240928 144372 S   0,0   1,5   0:08.99 yandex_browser
+   4922 yoda      20   0 1224,1g 111660  85712 S   0,0   0,7   0:00.14 yandex_browser
+   4932 yoda      20   0 1224,2g 151520 115604 S   0,0   0,9   0:00.50 yandex_browser
+   4945 yoda      20   0 1225,8g 187896 107824 S   0,0   1,1   0:00.67 yandex_browser
+   4961 yoda      20   0    3252   2248   2120 S   0,0   0,0   0:00.00 bwrap
+   4964 yoda      20   0    3252   1320   1188 S   0,0   0,0   0:00.00 bwrap
+   4965 yoda      20   0  342060  19816  17512 S   0,0   0,1   0:00.16 glycin-svg
+   4982 yoda      20   0       0      0      0 Z   0,0   0,0   0:00.00 dbus-daemon
+   5013 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-events
+   5310 root      20   0    9612   4724   4132 S   0,0   0,0   0:00.00 systemd-userwor
+   5311 root      20   0    9612   4752   4156 S   0,0   0,0   0:00.00 systemd-userwor
+   5318 yoda      20   0 1225,8g 128864  88792 S   0,0   0,8   0:00.78 yandex_browser
+   5342 root      20   0    9612   4704   4108 S   0,0   0,0   0:00.00 systemd-userwor
+   5448 yoda      20   0    6192   4388   4260 S   0,0   0,0   0:00.00 script
+   5478 yoda      20   0   11104   6164   4132 S   0,0   0,0   0:00.00 zsh
+   5502 yoda      20   0   12368   7172   3944 S   0,0   0,0   0:00.00 zsh
+   5503 yoda      20   0   12352   6832   3608 S   0,0   0,0   0:00.00 zsh
+   5505 yoda      20   0  106584   5012   4668 S   0,0   0,0   0:00.00 gitstatusd
+
+top - 16:28:17 up 7 min,  1 user,  load average: 0,47, 0,59, 0,30
+Tasks: 284 total, 1 running, 282 sleep, 0 d-sleep, 0 stopped, 1 zombie
+%Cpu(s):  1,2 us,  0,3 sy,  0,0 ni, 98,1 id,  0,1 wa,  0,2 hi,  0,1 si,  0,1 st 
+MiB Mem :  15967,7 total,  12403,3 free,   2177,3 used,   1836,8 buff/cache     
+MiB Swap:   1024,0 total,   1024,0 free,      0,0 used.  13790,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1083 root      20   0  122876  78168   9476 S   2,6   0,5   1:23.06 xrdp
+   1109 yoda      20   0  574624 194824  99676 S   2,3   1,2   0:27.85 Xorg
+   2685 yoda      20   0   33,0g 398676 267820 S   1,0   2,4   0:23.83 yandex_browser
+   2462 yoda      20   0  648200  65276  48324 S   0,7   0,4   0:02.96 xfce4-terminal
+   2710 yoda      20   0   32,4g  20332   3484 S   0,3   0,1   0:00.08 yandex_browser
+   3740 yoda      20   0 2614924 129052  97660 S   0,3   0,8   0:12.45 Privileged Cont
+   4932 yoda      20   0 1224,2g 151520 115604 S   0,3   0,9   0:00.51 yandex_browser
+   5448 yoda      20   0    6192   4388   4260 S   0,3   0,0   0:00.01 script
+   5574 yoda      25   5   10472   7736   5588 R   0,3   0,0   0:00.04 top
+      1 root      20   0   20628  14756  10872 S   0,0   0,1   0:02.15 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_workqueue_release
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kvfree_rcu_reclaim
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_gp
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-sync_wq
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-slub_flushwq
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-netns
+      9 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0-events
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u256:0-events_unbound
+     13 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mm_percpu_wq
+     14 root      20   0       0      0      0 I   0,0   0,0   0:00.08 kworker/u256:1-ipv6_addrconf
+     15 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     16 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     17 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     18 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/0
+     19 root      -2   0       0      0      0 I   0,0   0,0   0:00.26 rcu_preempt
+     20 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 rcub/1
+     21 root      20   0       0      0      0 S   0,0   0,0   0:00.02 rcu_exp_par_gp_kthread_worker/1
+     22 root      20   0       0      0      0 S   0,0   0,0   0:00.01 rcu_exp_gp_kthread_worker
+     23 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0
+     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     25 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/1
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/1
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/2
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/2
+     37 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     39 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     40 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/3
+     41 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/3
+     42 root      20   0       0      0      0 I   0,0   0,0   0:00.04 kworker/3:0-events
+     43 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/4
+     45 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/4
+     46 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/4
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/4
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0H-events_highpri
+     50 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/5
+     51 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/5
+     52 root      rt   0       0      0      0 S   0,0   0,0   0:00.32 migration/5
+     53 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/5
+     55 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0H-events_highpri
+     56 root      20   0       0      0      0 I   0,0   0,0   0:00.07 kworker/u257:0-events_unbound
+     58 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u259:0-kvfree_rcu_reclaim
+     59 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u260:0-events_power_efficient
+     61 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:0-kvfree_rcu_reclaim
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-inet_frag_wq
+     64 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     65 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     66 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-writeback
+     69 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u257:2-kvfree_rcu_reclaim
+     70 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kcompactd0
+     71 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     72 root      39  19       0      0      0 S   0,0   0,0   0:00.47 khugepaged
+     73 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kintegrityd
+     74 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kblockd
+     75 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-blkcg_punt_bio
+     76 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/9-acpi
+     77 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:1-events
+     78 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/1:1-events
+     79 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xen-balloon
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-tpm_dev_wq
+     81 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ata_sff
+     82 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-edac-poller
+     83 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-devfreq_wq
+     84 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     85 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-quota_events_unbound
+     86 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:1-ext4-rsv-conversion
+     87 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/4:1-events
+     88 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:1H-kblockd
+     89 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0
+     90 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kthrotld
+     91 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-acpi_thermal_pm
+     92 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus
+     93 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenwatch
+     94 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khvcd
+     95 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mld
+     96 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u259:1-events_unbound
+     97 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:1H-kblockd
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ipv6_addrconf
+     99 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:1-events_unbound
+    101 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:2-kvfree_rcu_reclaim
+    108 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kstrp
+    111 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u263:0
+    112 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u264:0
+    113 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u265:0
+    114 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u266:0
+    115 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u267:0
+    116 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u268:0
+    117 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u269:0
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:1H-kblockd
+    146 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/3:1H-kblockd
+    159 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/1:1H-kblockd
+    188 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u260:1-events_unbound
+    189 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/2:1H-kblockd
+    190 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_0
+    191 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_0
+    192 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1
+    193 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_1
+    194 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/u262:2-events_power_efficient
+    197 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u258:1-events_unbound
+    198 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:2-cgroup_release
+    271 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:2-events
+    272 root      20   0       0      0      0 S   0,0   0,0   0:00.13 jbd2/xvda2-8
+    273 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ext4-rsv-conversion
+    322 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/4:2-events
+    333 root      20   0   91780  21264  20088 S   0,0   0,1   0:00.57 systemd-journal
+    346 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u257:3-writeback
+    372 root      20   0    9096   4532   3968 S   0,0   0,0   0:00.05 systemd-userdbd
+    377 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/3:2-events
+    531 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    539 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/0:3-events
+    544 systemd+  20   0   85412   7244   6476 S   0,0   0,0   0:00.10 systemd-timesyn
+    558 root      20   0   43160  13732   8864 S   0,0   0,1   0:00.30 systemd-udevd
+    560 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    604 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/1:2-events
+    633 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-cryptd
+    637 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/5:3-mm_percpu_wq
+    645 dbus      20   0    8132   4332   3460 S   0,0   0,0   0:00.08 dbus-broker-lau
+    646 dbus      20   0    6552   4624   2764 S   0,0   0,0   0:00.22 dbus-broker
+    647 root      20   0  496020  28828  24892 S   0,0   0,2   0:00.25 NetworkManager
+    648 avahi     20   0    6192   4476   4120 S   0,0   0,0   0:00.12 avahi-daemon
+    649 polkitd   20   0  383320  10912   7976 S   0,0   0,1   0:00.75 polkitd
+    651 root      20   0   10252   7844   6824 S   0,0   0,0   0:00.20 systemd-logind
+    675 avahi     20   0    6192   1628   1320 S   0,0   0,0   0:00.00 avahi-daemon
+    685 root      20   0  391168  12736  10468 S   0,0   0,1   0:00.20 ModemManager
+    732 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u258:2-events_unbound
+    733 root      20   0   22180   8652   7440 S   0,0   0,1   0:00.02 cupsd
+    742 root      20   0   12856   7568   6340 S   0,0   0,0   0:00.05 sshd
+    744 root      20   0   13540   4724   3864 S   0,0   0,0   0:00.01 xrdp-sesman
+    752 root      20   0    7216   5296   4500 S   0,0   0,0   0:00.01 crond
+    755 root      20   0   21644   7548   6356 S   0,0   0,0   0:00.05 xrdp
+    774 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u259:2-writeback
+    776 root      20   0  381300   7828   7000 S   0,0   0,0   0:00.05 lightdm
+    777 root      20   0    7548   2788   2580 S   0,0   0,0   0:00.02 agetty
+    784 root      20   0  847156  51608  24280 S   0,0   0,3   0:00.64 Xorg
+    785 root      20   0  309328  10348   9504 S   0,0   0,1   0:00.15 accounts-daemon
+    810 root      20   0  171860   9524   8532 S   0,0   0,1   0:00.02 lightdm
+    816 root      -2   0       0      0      0 S   0,0   0,0   0:00.02 psimon
+    818 lightdm   20   0   18532  12332  10248 S   0,0   0,1   0:00.31 systemd
+    820 lightdm   20   0   19564   3760   2164 S   0,0   0,0   0:00.00 (sd-pam)
+    829 lightdm   20   0  884740  60620  42160 S   0,0   0,4   0:01.14 lightdm-gtk-gre
+    832 lightdm   20   0    7576   3808   3500 S   0,0   0,0   0:00.03 dbus-broker-lau
+    833 lightdm   20   0    4836   3036   2764 S   0,0   0,0   0:00.02 dbus-broker
+    834 lightdm   20   0  380588   7620   6940 S   0,0   0,0   0:00.03 at-spi-bus-laun
+    840 lightdm   20   0    7576   3756   3484 S   0,0   0,0   0:00.00 dbus-broker-lau
+    841 lightdm   20   0    4836   2908   2720 S   0,0   0,0   0:00.00 dbus-broker
+    844 lightdm   20   0  331672  12756  10884 S   0,0   0,1   0:00.03 gvfsd
+    850 lightdm   20   0  325364   7520   6704 S   0,0   0,0   0:00.02 gvfsd-fuse
+    890 lightdm   20   0  169496   6964   6320 S   0,0   0,0   0:00.04 gvfsd-metadata
+    958 root      20   0   20008   8648   7624 S   0,0   0,1   0:00.01 lightdm
+    959 lightdm   20   0  168000   7268   6640 S   0,0   0,0   0:00.02 at-spi2-registr
+   1063 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u260:3-kvfree_rcu_reclaim
+   1065 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u258:3-ext4-rsv-conversion
+   1085 root      20   0   21372  10148   8508 S   0,0   0,1   0:00.03 xrdp-sesexec
+   1091 yoda      20   0   18988  12412  10172 S   0,0   0,1   0:00.31 systemd
+   1093 yoda      20   0   19568   3744   2152 S   0,0   0,0   0:00.00 (sd-pam)
+   1102 yoda      20   0  182408  11968  10944 S   0,0   0,1   0:00.05 gnome-keyring-d
+   1107 yoda      20   0    7576   3792   3488 S   0,0   0,0   0:00.01 dbus-broker-lau
+   1108 yoda      20   0    4836   2968   2692 S   0,0   0,0   0:00.02 dbus-broker
+   1115 yoda      20   0  836164  95976  79340 S   0,0   0,6   0:01.49 xfce4-session
+   1116 yoda      20   0  105156   7016   5736 S   0,0   0,0   0:00.02 xrdp-chansrv
+   1138 yoda      20   0    7696   4080   2292 S   0,0   0,0   0:00.60 dbus-daemon
+   1144 yoda      20   0  331672  14852  12932 S   0,0   0,1   0:00.05 gvfsd
+   1150 yoda      20   0  399096   9732   8896 S   0,0   0,1   0:00.01 gvfsd-fuse
+   1160 yoda      20   0  380596   8340   7612 S   0,0   0,1   0:00.01 at-spi-bus-laun
+   1166 yoda      20   0    7272   4656   3892 S   0,0   0,0   0:00.08 dbus-daemon
+   1168 yoda      20   0  308472   9200   8352 S   0,0   0,1   0:00.29 xfconfd
+   1174 yoda      20   0  167980   8100   7368 S   0,0   0,0   0:00.10 at-spi2-registr
+   1181 yoda      20   0   12700   1900    832 S   0,0   0,0   0:00.00 ssh-agent
+   1193 yoda      20   0  155944   5408   5088 S   0,0   0,0   0:00.02 gpg-agent
+   1195 yoda      20   0 1062272 128476  99360 S   0,0   0,8   0:09.45 xfwm4
+   1229 yoda      20   0   97696  10144   8060 S   0,0   0,1   0:00.06 pipewire
+   1230 yoda      20   0  555332  16628  13148 S   0,0   0,1   0:00.25 wireplumber
+   1231 yoda      20   0   99532  11000   9228 S   0,0   0,1   0:00.05 pipewire-pulse
+   1241 rtkit     21   1   21284   3340   3120 S   0,0   0,0   0:00.04 rtkit-daemon
+   1271 yoda      20   0  165616   6440   5884 S   0,0   0,0   0:00.02 dconf-service
+   1275 yoda      20   0  635340  57132  43164 S   0,0   0,3   0:01.91 xfce4-panel
+   1283 yoda      20   0  641552  59596  43820 S   0,0   0,4   0:01.82 Thunar
+   1290 yoda      20   0  626804  57232  43104 S   0,0   0,4   0:02.96 wrapper-2.0
+   1307 yoda      20   0  169632   9244   8472 S   0,0   0,1   0:00.52 gvfsd-metadata
+   1313 yoda      20   0  615632  48864  35768 S   0,0   0,3   0:00.79 wrapper-2.0
+   1315 yoda      20   0  687276  52736  40072 S   0,0   0,3   0:00.76 wrapper-2.0
+   1317 yoda      20   0  622352  51092  39120 S   0,0   0,3   0:00.74 wrapper-2.0
+   1327 yoda      20   0  787500  86728  55192 S   0,0   0,5   0:04.61 xfdesktop
+   1379 yoda      20   0  610236  47592  36464 S   0,0   0,3   0:00.71 xfce4-notifyd
+   1533 yoda      20   0   12864   2020   1716 S   0,0   0,0   0:00.01 xcape
+   1536 yoda      20   0  628028  65732  40540 S   0,0   0,4   0:00.70 xfce4-clipman
+   1537 yoda      20   0 1175476 289652 225716 S   0,0   1,8   0:17.81 nextcloud
+   1539 yoda      20   0  461760  39364  27252 S   0,0   0,2   0:00.70 xfce4-power-man
+   1544 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u261:3-flush-202:0
+   1548 yoda      20   0  672648  62592  48164 S   0,0   0,4   0:00.77 nm-applet
+   1551 yoda      20   0  316324  10836   9952 S   0,0   0,1   0:00.00 agent
+   1557 yoda      20   0  636784  57364  43736 S   0,0   0,4   0:00.71 pamac-tray
+   1562 yoda      20   0  646928  70808  39572 S   0,0   0,4   0:01.12 blueman-applet
+   1571 yoda      20   0  595428  43044  31700 S   0,0   0,3   0:00.94 xfce4-screensav
+   1573 yoda      20   0  531004   9784   8416 S   0,0   0,1   0:00.09 xiccd
+   1579 yoda      20   0  320648  37044  26664 S   0,0   0,2   0:00.58 polkit-gnome-au
+   1585 yoda      20   0  234332  32276  29140 S   0,0   0,2   0:00.25 msm_notifier
+   1586 yoda      20   0  542952  39332  27956 S   0,0   0,2   0:00.58 xfce4-notifyd
+   1598 colord    20   0  317300  17176  12160 S   0,0   0,1   0:00.19 colord
+   1663 yoda      20   0  331672  14668  12800 S   0,0   0,1   0:00.03 gvfsd
+   1683 yoda      20   0  478044  18732  15644 S   0,0   0,1   0:00.10 xdg-desktop-por
+   1698 yoda      20   0  307948   8624   8092 S   0,0   0,1   0:00.00 xdg-permission-
+   1708 yoda      20   0  539464   9576   8896 S   0,0   0,1   0:00.03 xdg-document-po
+   1715 root      20   0    2984   2172   2064 S   0,0   0,0   0:00.00 fusermount3
+   1720 yoda      20   0  534420  37736  26968 S   0,0   0,2   0:00.56 xdg-desktop-por
+   1727 root      20   0  319740  12712  10928 S   0,0   0,1   0:00.10 upowerd
+   1886 yoda      20   0  585128  20188  17820 S   0,0   0,1   0:00.04 gvfs-udisks2-vo
+   1890 root      20   0  479188  14748  12460 S   0,0   0,1   0:00.06 udisksd
+   1931 yoda      20   0  310628   9984   9208 S   0,0   0,1   0:00.00 gvfs-gphoto2-vo
+   1937 yoda      20   0  392260  11212   9916 S   0,0   0,1   0:00.01 gvfs-afc-volume
+   1944 yoda      20   0  308476   9160   8512 S   0,0   0,1   0:00.01 gvfs-mtp-volume
+   1961 yoda      20   0  553084  15816  13652 S   0,0   0,1   0:00.03 gvfsd-trash
+   2539 yoda      20   0   13376  11204   7140 S   0,0   0,1   0:03.28 zsh
+   2553 yoda      20   0   11080   6156   4132 S   0,0   0,0   0:00.00 zsh
+   2578 yoda      20   0   12360   7176   3956 S   0,0   0,0   0:00.00 zsh
+   2579 yoda      20   0   12344   6776   3560 S   0,0   0,0   0:00.00 zsh
+   2581 yoda      20   0  106580   4876   4536 S   0,0   0,0   0:00.01 gitstatusd
+   2694 yoda      20   0    6000   4024   3920 S   0,0   0,0   0:00.00 cat
+   2695 yoda      20   0    6000   4028   3920 S   0,0   0,0   0:00.00 cat
+   2697 yoda      20   0   32,0g   4368   4008 S   0,0   0,0   0:00.00 chrome_crashpad
+   2699 yoda      20   0   32,0g   3796   3464 S   0,0   0,0   0:00.00 chrome_crashpad
+   2705 yoda      20   0   32,4g  77484  60820 S   0,0   0,5   0:00.10 yandex_browser
+   2706 yoda      20   0   32,4g  77828  61204 S   0,0   0,5   0:00.08 yandex_browser
+   2748 yoda      20   0   32,4g 133860 103952 S   0,0   0,8   0:05.89 yandex_browser
+   2772 yoda      20   0   32,5g  60044  41568 S   0,0   0,4   0:00.15 yandex_browser
+   2851 yoda      20   0   32,5g  87528  72240 S   0,0   0,5   0:00.12 yandex_browser
+   2862 yoda      20   0 1224,1g 112488  84652 S   0,0   0,7   0:00.21 yandex_browser
+   2875 yoda      20   0 1224,2g 212316 185004 S   0,0   1,3   0:00.59 yandex_browser
+   2891 yoda      20   0 1224,2g 160976 116180 S   0,0   1,0   0:01.01 yandex_browser
+   3026 yoda      20   0   32,6g 128588 105616 S   0,0   0,8   0:02.97 yandex_browser
+   3596 yoda      20   0  395856  38572  27716 S   0,0   0,2   0:00.40 xfsettingsd
+   3606 yoda      20   0    8120   5784   5480 S   0,0   0,0   0:00.00 sh
+   3607 yoda      20   0    8252   6028   5652 S   0,0   0,0   0:00.00 bash
+   3619 yoda      20   0 3022940 340400 182868 S   0,0   2,1   0:50.00 firefox.real
+   3701 yoda      20   0  446580  39056  29440 S   0,0   0,2   0:00.09 forkserver
+   3718 yoda      20   0  459844  36476  25608 S   0,0   0,2   0:00.04 Socket Process
+   3734 yoda      20   0  562620 111676  50720 S   0,0   0,7   0:02.84 tor
+   3749 yoda      20   0  693956  44932  31776 S   0,0   0,3   0:00.06 RDD Process
+   3806 yoda      20   0 2616500 119604  88392 S   0,0   0,7   0:00.55 WebExtensions
+   3862 yoda      20   0  457896  34892  24136 S   0,0   0,2   0:00.03 Utility Process
+   3869 yoda      20   0 2576444  76460  60404 S   0,0   0,5   0:00.09 Web Content
+   3877 yoda      20   0 2576444  76988  60940 S   0,0   0,5   0:00.35 Web Content
+   3917 yoda      20   0 2576444  76220  60200 S   0,0   0,5   0:00.10 Web Content
+   3944 yoda      20   0 1803624  22144  13140 S   0,0   0,1   0:00.06 lyrebird
+   4509 yoda      20   0   32,5g  52280  34012 S   0,0   0,3   0:00.04 yandex_browser
+   4866 yoda      20   0 1224,1g  78192  55184 S   0,0   0,5   0:00.06 yandex_browser
+   4892 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0-events
+   4893 yoda      20   0 1224,2g 240928 144372 S   0,0   1,5   0:08.99 yandex_browser
+   4922 yoda      20   0 1224,1g 111660  85712 S   0,0   0,7   0:00.14 yandex_browser
+   4945 yoda      20   0 1225,8g 187896 107824 S   0,0   1,1   0:00.67 yandex_browser
+   4961 yoda      20   0    3252   2248   2120 S   0,0   0,0   0:00.00 bwrap
+   4964 yoda      20   0    3252   1320   1188 S   0,0   0,0   0:00.00 bwrap
+   4965 yoda      20   0  342048  19816  17512 S   0,0   0,1   0:00.16 glycin-svg
+   4982 yoda      20   0       0      0      0 Z   0,0   0,0   0:00.00 dbus-daemon
+   5013 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-events
+   5310 root      20   0    9612   4724   4132 S   0,0   0,0   0:00.00 systemd-userwor
+   5311 root      20   0    9612   4752   4156 S   0,0   0,0   0:00.00 systemd-userwor
+   5342 root      20   0    9612   4704   4108 S   0,0   0,0   0:00.00 systemd-userwor
+   5452 yoda      20   0   13260  10992   7016 S   0,0   0,1   0:00.81 zsh
+   5478 yoda      20   0   11104   6164   4132 S   0,0   0,0   0:00.00 zsh
+   5502 yoda      20   0   12368   7172   3944 S   0,0   0,0   0:00.00 zsh
+   5503 yoda      20   0   12352   6832   3608 S   0,0   0,0   0:00.00 zsh
+   5505 yoda      20   0  106584   5012   4668 S   0,0   0,0   0:00.00 gitstatusd
+
+top - 16:28:20 up 7 min,  1 user,  load average: 0,47, 0,59, 0,30
+Tasks: 284 total, 1 running, 282 sleep, 0 d-sleep, 0 stopped, 1 zombie
+%Cpu(s):  0,8 us,  0,2 sy,  0,1 ni, 98,8 id,  0,0 wa,  0,1 hi,  0,1 si,  0,1 st 
+MiB Mem :  15967,7 total,  12403,3 free,   2177,3 used,   1836,8 buff/cache     
+MiB Swap:   1024,0 total,   1024,0 free,      0,0 used.  13790,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1083 root      20   0  122876  78168   9476 S   2,3   0,5   1:23.13 xrdp
+   1109 yoda      20   0  574624 194824  99676 S   1,6   1,2   0:27.90 Xorg
+   5574 yoda      25   5   10472   7736   5588 R   1,0   0,0   0:00.07 top
+   2685 yoda      20   0   33,0g 399296 267820 S   0,7   2,4   0:23.85 yandex_browser
+   3877 yoda      20   0 2576444  76988  60940 S   0,7   0,5   0:00.37 Web Content
+   2462 yoda      20   0  648200  65276  48324 S   0,3   0,4   0:02.97 xfce4-terminal
+      1 root      20   0   20628  14756  10872 S   0,0   0,1   0:02.15 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_workqueue_release
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kvfree_rcu_reclaim
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_gp
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-sync_wq
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-slub_flushwq
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-netns
+      9 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0-events
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u256:0-events_unbound
+     13 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mm_percpu_wq
+     14 root      20   0       0      0      0 I   0,0   0,0   0:00.08 kworker/u256:1-ipv6_addrconf
+     15 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     16 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     17 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     18 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/0
+     19 root      -2   0       0      0      0 I   0,0   0,0   0:00.26 rcu_preempt
+     20 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 rcub/1
+     21 root      20   0       0      0      0 S   0,0   0,0   0:00.02 rcu_exp_par_gp_kthread_worker/1
+     22 root      20   0       0      0      0 S   0,0   0,0   0:00.01 rcu_exp_gp_kthread_worker
+     23 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0
+     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     25 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/1
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/1
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/2
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/2
+     37 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     39 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     40 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/3
+     41 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/3
+     42 root      20   0       0      0      0 I   0,0   0,0   0:00.04 kworker/3:0-events
+     43 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/4
+     45 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/4
+     46 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/4
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/4
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0H-events_highpri
+     50 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/5
+     51 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/5
+     52 root      rt   0       0      0      0 S   0,0   0,0   0:00.32 migration/5
+     53 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/5
+     55 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0H-events_highpri
+     56 root      20   0       0      0      0 I   0,0   0,0   0:00.07 kworker/u257:0-events_unbound
+     58 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u259:0-kvfree_rcu_reclaim
+     59 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u260:0-events_power_efficient
+     61 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:0-kvfree_rcu_reclaim
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-inet_frag_wq
+     64 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     65 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     66 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-writeback
+     69 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u257:2-kvfree_rcu_reclaim
+     70 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kcompactd0
+     71 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     72 root      39  19       0      0      0 S   0,0   0,0   0:00.47 khugepaged
+     73 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kintegrityd
+     74 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kblockd
+     75 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-blkcg_punt_bio
+     76 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/9-acpi
+     77 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:1-events
+     78 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/1:1-events
+     79 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xen-balloon
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-tpm_dev_wq
+     81 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ata_sff
+     82 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-edac-poller
+     83 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-devfreq_wq
+     84 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     85 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-quota_events_unbound
+     86 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:1-writeback
+     87 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/4:1-mm_percpu_wq
+     88 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:1H-kblockd
+     89 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0
+     90 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kthrotld
+     91 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-acpi_thermal_pm
+     92 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus
+     93 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenwatch
+     94 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khvcd
+     95 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mld
+     96 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u259:1-events_unbound
+     97 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:1H-kblockd
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ipv6_addrconf
+     99 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:1-events_unbound
+    101 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:2-ext4-rsv-conversion
+    108 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kstrp
+    111 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u263:0
+    112 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u264:0
+    113 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u265:0
+    114 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u266:0
+    115 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u267:0
+    116 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u268:0
+    117 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u269:0
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:1H-kblockd
+    146 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/3:1H-kblockd
+    159 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/1:1H-kblockd
+    188 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u260:1-writeback
+    189 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/2:1H-kblockd
+    190 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_0
+    191 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_0
+    192 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1
+    193 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_1
+    194 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/u262:2-events_unbound
+    197 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u258:1-events_unbound
+    198 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:2-cgroup_release
+    271 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:2-mm_percpu_wq
+    272 root      20   0       0      0      0 S   0,0   0,0   0:00.13 jbd2/xvda2-8
+    273 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ext4-rsv-conversion
+    322 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/4:2-events
+    333 root      20   0   91780  21264  20088 S   0,0   0,1   0:00.57 systemd-journal
+    346 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u257:3-events_power_efficient
+    372 root      20   0    9096   4532   3968 S   0,0   0,0   0:00.05 systemd-userdbd
+    377 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/3:2-events
+    531 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    539 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/0:3-events
+    544 systemd+  20   0   85412   7244   6476 S   0,0   0,0   0:00.10 systemd-timesyn
+    558 root      20   0   43160  13732   8864 S   0,0   0,1   0:00.30 systemd-udevd
+    560 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    604 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/1:2-mm_percpu_wq
+    633 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-cryptd
+    637 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/5:3-events
+    645 dbus      20   0    8132   4332   3460 S   0,0   0,0   0:00.08 dbus-broker-lau
+    646 dbus      20   0    6552   4624   2764 S   0,0   0,0   0:00.22 dbus-broker
+    647 root      20   0  496020  28828  24892 S   0,0   0,2   0:00.25 NetworkManager
+    648 avahi     20   0    6192   4476   4120 S   0,0   0,0   0:00.12 avahi-daemon
+    649 polkitd   20   0  383320  10912   7976 S   0,0   0,1   0:00.75 polkitd
+    651 root      20   0   10252   7844   6824 S   0,0   0,0   0:00.20 systemd-logind
+    675 avahi     20   0    6192   1628   1320 S   0,0   0,0   0:00.00 avahi-daemon
+    685 root      20   0  391168  12736  10468 S   0,0   0,1   0:00.20 ModemManager
+    732 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u258:2-events_unbound
+    733 root      20   0   22180   8652   7440 S   0,0   0,1   0:00.02 cupsd
+    742 root      20   0   12856   7568   6340 S   0,0   0,0   0:00.05 sshd
+    744 root      20   0   13540   4724   3864 S   0,0   0,0   0:00.01 xrdp-sesman
+    752 root      20   0    7216   5296   4500 S   0,0   0,0   0:00.01 crond
+    755 root      20   0   21644   7548   6356 S   0,0   0,0   0:00.05 xrdp
+    774 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u259:2-kvfree_rcu_reclaim
+    776 root      20   0  381300   7828   7000 S   0,0   0,0   0:00.05 lightdm
+    777 root      20   0    7548   2788   2580 S   0,0   0,0   0:00.02 agetty
+    784 root      20   0  847156  51608  24280 S   0,0   0,3   0:00.64 Xorg
+    785 root      20   0  309328  10348   9504 S   0,0   0,1   0:00.15 accounts-daemon
+    810 root      20   0  171860   9524   8532 S   0,0   0,1   0:00.02 lightdm
+    816 root      -2   0       0      0      0 S   0,0   0,0   0:00.02 psimon
+    818 lightdm   20   0   18532  12332  10248 S   0,0   0,1   0:00.31 systemd
+    820 lightdm   20   0   19564   3760   2164 S   0,0   0,0   0:00.00 (sd-pam)
+    829 lightdm   20   0  884740  60620  42160 S   0,0   0,4   0:01.14 lightdm-gtk-gre
+    832 lightdm   20   0    7576   3808   3500 S   0,0   0,0   0:00.03 dbus-broker-lau
+    833 lightdm   20   0    4836   3036   2764 S   0,0   0,0   0:00.02 dbus-broker
+    834 lightdm   20   0  380588   7620   6940 S   0,0   0,0   0:00.03 at-spi-bus-laun
+    840 lightdm   20   0    7576   3756   3484 S   0,0   0,0   0:00.00 dbus-broker-lau
+    841 lightdm   20   0    4836   2908   2720 S   0,0   0,0   0:00.00 dbus-broker
+    844 lightdm   20   0  331672  12756  10884 S   0,0   0,1   0:00.03 gvfsd
+    850 lightdm   20   0  325364   7520   6704 S   0,0   0,0   0:00.02 gvfsd-fuse
+    890 lightdm   20   0  169496   6964   6320 S   0,0   0,0   0:00.04 gvfsd-metadata
+    958 root      20   0   20008   8648   7624 S   0,0   0,1   0:00.01 lightdm
+    959 lightdm   20   0  168000   7268   6640 S   0,0   0,0   0:00.02 at-spi2-registr
+   1063 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u260:3-kvfree_rcu_reclaim
+   1065 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u258:3-events_unbound
+   1085 root      20   0   21372  10148   8508 S   0,0   0,1   0:00.03 xrdp-sesexec
+   1091 yoda      20   0   18988  12412  10172 S   0,0   0,1   0:00.31 systemd
+   1093 yoda      20   0   19568   3744   2152 S   0,0   0,0   0:00.00 (sd-pam)
+   1102 yoda      20   0  182408  11968  10944 S   0,0   0,1   0:00.05 gnome-keyring-d
+   1107 yoda      20   0    7576   3792   3488 S   0,0   0,0   0:00.01 dbus-broker-lau
+   1108 yoda      20   0    4836   2968   2692 S   0,0   0,0   0:00.02 dbus-broker
+   1115 yoda      20   0  836164  95976  79340 S   0,0   0,6   0:01.49 xfce4-session
+   1116 yoda      20   0  105156   7016   5736 S   0,0   0,0   0:00.02 xrdp-chansrv
+   1138 yoda      20   0    7696   4080   2292 S   0,0   0,0   0:00.60 dbus-daemon
+   1144 yoda      20   0  331672  14852  12932 S   0,0   0,1   0:00.05 gvfsd
+   1150 yoda      20   0  399096   9732   8896 S   0,0   0,1   0:00.01 gvfsd-fuse
+   1160 yoda      20   0  380596   8340   7612 S   0,0   0,1   0:00.01 at-spi-bus-laun
+   1166 yoda      20   0    7272   4656   3892 S   0,0   0,0   0:00.08 dbus-daemon
+   1168 yoda      20   0  308472   9200   8352 S   0,0   0,1   0:00.29 xfconfd
+   1174 yoda      20   0  167980   8100   7368 S   0,0   0,0   0:00.10 at-spi2-registr
+   1181 yoda      20   0   12700   1900    832 S   0,0   0,0   0:00.00 ssh-agent
+   1193 yoda      20   0  155944   5408   5088 S   0,0   0,0   0:00.02 gpg-agent
+   1195 yoda      20   0 1062272 128476  99360 S   0,0   0,8   0:09.45 xfwm4
+   1229 yoda      20   0   97696  10144   8060 S   0,0   0,1   0:00.06 pipewire
+   1230 yoda      20   0  555332  16628  13148 S   0,0   0,1   0:00.25 wireplumber
+   1231 yoda      20   0   99532  11000   9228 S   0,0   0,1   0:00.05 pipewire-pulse
+   1241 rtkit     21   1   21284   3340   3120 S   0,0   0,0   0:00.04 rtkit-daemon
+   1271 yoda      20   0  165616   6440   5884 S   0,0   0,0   0:00.02 dconf-service
+   1275 yoda      20   0  635340  57132  43164 S   0,0   0,3   0:01.91 xfce4-panel
+   1283 yoda      20   0  641552  59596  43820 S   0,0   0,4   0:01.82 Thunar
+   1290 yoda      20   0  626804  57232  43104 S   0,0   0,4   0:02.96 wrapper-2.0
+   1307 yoda      20   0  169632   9244   8472 S   0,0   0,1   0:00.52 gvfsd-metadata
+   1313 yoda      20   0  615632  48864  35768 S   0,0   0,3   0:00.79 wrapper-2.0
+   1315 yoda      20   0  687276  52736  40072 S   0,0   0,3   0:00.76 wrapper-2.0
+   1317 yoda      20   0  622352  51092  39120 S   0,0   0,3   0:00.74 wrapper-2.0
+   1327 yoda      20   0  787500  86728  55192 S   0,0   0,5   0:04.61 xfdesktop
+   1379 yoda      20   0  610236  47592  36464 S   0,0   0,3   0:00.71 xfce4-notifyd
+   1533 yoda      20   0   12864   2020   1716 S   0,0   0,0   0:00.01 xcape
+   1536 yoda      20   0  628028  65732  40540 S   0,0   0,4   0:00.70 xfce4-clipman
+   1537 yoda      20   0 1175476 289652 225716 S   0,0   1,8   0:17.81 nextcloud
+   1539 yoda      20   0  461760  39364  27252 S   0,0   0,2   0:00.70 xfce4-power-man
+   1544 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u261:3-flush-202:0
+   1548 yoda      20   0  672648  62592  48164 S   0,0   0,4   0:00.77 nm-applet
+   1551 yoda      20   0  316324  10836   9952 S   0,0   0,1   0:00.00 agent
+   1557 yoda      20   0  636784  57364  43736 S   0,0   0,4   0:00.71 pamac-tray
+   1562 yoda      20   0  646928  70808  39572 S   0,0   0,4   0:01.12 blueman-applet
+   1571 yoda      20   0  595428  43044  31700 S   0,0   0,3   0:00.94 xfce4-screensav
+   1573 yoda      20   0  531004   9784   8416 S   0,0   0,1   0:00.09 xiccd
+   1579 yoda      20   0  320648  37044  26664 S   0,0   0,2   0:00.58 polkit-gnome-au
+   1585 yoda      20   0  234332  32276  29140 S   0,0   0,2   0:00.25 msm_notifier
+   1586 yoda      20   0  542952  39332  27956 S   0,0   0,2   0:00.58 xfce4-notifyd
+   1598 colord    20   0  317300  17176  12160 S   0,0   0,1   0:00.19 colord
+   1663 yoda      20   0  331672  14668  12800 S   0,0   0,1   0:00.03 gvfsd
+   1683 yoda      20   0  478044  18732  15644 S   0,0   0,1   0:00.10 xdg-desktop-por
+   1698 yoda      20   0  307948   8624   8092 S   0,0   0,1   0:00.00 xdg-permission-
+   1708 yoda      20   0  539464   9576   8896 S   0,0   0,1   0:00.03 xdg-document-po
+   1715 root      20   0    2984   2172   2064 S   0,0   0,0   0:00.00 fusermount3
+   1720 yoda      20   0  534420  37736  26968 S   0,0   0,2   0:00.56 xdg-desktop-por
+   1727 root      20   0  319740  12712  10928 S   0,0   0,1   0:00.10 upowerd
+   1886 yoda      20   0  585128  20188  17820 S   0,0   0,1   0:00.04 gvfs-udisks2-vo
+   1890 root      20   0  479188  14748  12460 S   0,0   0,1   0:00.06 udisksd
+   1931 yoda      20   0  310628   9984   9208 S   0,0   0,1   0:00.00 gvfs-gphoto2-vo
+   1937 yoda      20   0  392260  11212   9916 S   0,0   0,1   0:00.01 gvfs-afc-volume
+   1944 yoda      20   0  308476   9160   8512 S   0,0   0,1   0:00.01 gvfs-mtp-volume
+   1961 yoda      20   0  553084  15816  13652 S   0,0   0,1   0:00.03 gvfsd-trash
+   2539 yoda      20   0   13376  11204   7140 S   0,0   0,1   0:03.28 zsh
+   2553 yoda      20   0   11080   6156   4132 S   0,0   0,0   0:00.00 zsh
+   2578 yoda      20   0   12360   7176   3956 S   0,0   0,0   0:00.00 zsh
+   2579 yoda      20   0   12344   6776   3560 S   0,0   0,0   0:00.00 zsh
+   2581 yoda      20   0  106580   4876   4536 S   0,0   0,0   0:00.01 gitstatusd
+   2694 yoda      20   0    6000   4024   3920 S   0,0   0,0   0:00.00 cat
+   2695 yoda      20   0    6000   4028   3920 S   0,0   0,0   0:00.00 cat
+   2697 yoda      20   0   32,0g   4368   4008 S   0,0   0,0   0:00.00 chrome_crashpad
+   2699 yoda      20   0   32,0g   3796   3464 S   0,0   0,0   0:00.00 chrome_crashpad
+   2705 yoda      20   0   32,4g  77484  60820 S   0,0   0,5   0:00.10 yandex_browser
+   2706 yoda      20   0   32,4g  77828  61204 S   0,0   0,5   0:00.08 yandex_browser
+   2710 yoda      20   0   32,4g  20332   3484 S   0,0   0,1   0:00.08 yandex_browser
+   2748 yoda      20   0   32,4g 133844 103952 S   0,0   0,8   0:05.89 yandex_browser
+   2772 yoda      20   0   32,5g  60044  41568 S   0,0   0,4   0:00.15 yandex_browser
+   2851 yoda      20   0   32,5g  87528  72240 S   0,0   0,5   0:00.12 yandex_browser
+   2862 yoda      20   0 1224,1g 112488  84652 S   0,0   0,7   0:00.21 yandex_browser
+   2875 yoda      20   0 1224,2g 212316 185004 S   0,0   1,3   0:00.59 yandex_browser
+   2891 yoda      20   0 1224,2g 160976 116180 S   0,0   1,0   0:01.01 yandex_browser
+   3026 yoda      20   0   32,6g 128536 105616 S   0,0   0,8   0:02.97 yandex_browser
+   3596 yoda      20   0  395856  38572  27716 S   0,0   0,2   0:00.40 xfsettingsd
+   3606 yoda      20   0    8120   5784   5480 S   0,0   0,0   0:00.00 sh
+   3607 yoda      20   0    8252   6028   5652 S   0,0   0,0   0:00.00 bash
+   3619 yoda      20   0 3022940 340400 182868 S   0,0   2,1   0:50.00 firefox.real
+   3701 yoda      20   0  446580  39056  29440 S   0,0   0,2   0:00.09 forkserver
+   3718 yoda      20   0  459844  36476  25608 S   0,0   0,2   0:00.04 Socket Process
+   3734 yoda      20   0  562620 111676  50720 S   0,0   0,7   0:02.84 tor
+   3740 yoda      20   0 2614924 129052  97660 S   0,0   0,8   0:12.45 Privileged Cont
+   3749 yoda      20   0  693956  44932  31776 S   0,0   0,3   0:00.06 RDD Process
+   3806 yoda      20   0 2616500 119604  88392 S   0,0   0,7   0:00.55 WebExtensions
+   3862 yoda      20   0  457896  34892  24136 S   0,0   0,2   0:00.03 Utility Process
+   3869 yoda      20   0 2576444  76460  60404 S   0,0   0,5   0:00.09 Web Content
+   3917 yoda      20   0 2576444  76220  60200 S   0,0   0,5   0:00.10 Web Content
+   3944 yoda      20   0 1803624  22144  13140 S   0,0   0,1   0:00.06 lyrebird
+   4509 yoda      20   0   32,5g  52280  34012 S   0,0   0,3   0:00.04 yandex_browser
+   4866 yoda      20   0 1224,1g  78192  55184 S   0,0   0,5   0:00.06 yandex_browser
+   4892 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0-events
+   4893 yoda      20   0 1224,2g 240928 144372 S   0,0   1,5   0:08.99 yandex_browser
+   4922 yoda      20   0 1224,1g 111660  85712 S   0,0   0,7   0:00.14 yandex_browser
+   4932 yoda      20   0 1224,2g 151520 115604 S   0,0   0,9   0:00.51 yandex_browser
+   4945 yoda      20   0 1225,8g 187896 107824 S   0,0   1,1   0:00.67 yandex_browser
+   4961 yoda      20   0    3252   2248   2120 S   0,0   0,0   0:00.00 bwrap
+   4964 yoda      20   0    3252   1320   1188 S   0,0   0,0   0:00.00 bwrap
+   4965 yoda      20   0  342048  19816  17512 S   0,0   0,1   0:00.16 glycin-svg
+   4982 yoda      20   0       0      0      0 Z   0,0   0,0   0:00.00 dbus-daemon
+   5013 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-events
+   5310 root      20   0    9612   4724   4132 S   0,0   0,0   0:00.00 systemd-userwor
+   5311 root      20   0    9612   4752   4156 S   0,0   0,0   0:00.00 systemd-userwor
+   5342 root      20   0    9612   4704   4108 S   0,0   0,0   0:00.00 systemd-userwor
+   5448 yoda      20   0    6192   4388   4260 S   0,0   0,0   0:00.01 script
+   5452 yoda      20   0   13260  10992   7016 S   0,0   0,1   0:00.81 zsh
+   5478 yoda      20   0   11104   6164   4132 S   0,0   0,0   0:00.00 zsh
+   5502 yoda      20   0   12368   7172   3944 S   0,0   0,0   0:00.00 zsh
+   5503 yoda      20   0   12352   6832   3608 S   0,0   0,0   0:00.00 zsh
+   5505 yoda      20   0  106584   5012   4668 S   0,0   0,0   0:00.00 gitstatusd
+
+f[1m[31mf[0m[39m[1m[31mf[0m[39m[38;5;244mg[39m[1m[31mf[1m[31mg[0m[39m[0m[32mf[0m[32mg[39m[?25l[?2004l[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [32mfg[39m[K[?25h
+]2;top -b]1;[1]  + running    top -b
+top - 16:28:23 up 7 min,  1 user,  load average: 0,43, 0,58, 0,30
+Tasks: 284 total, 1 running, 282 sleep, 0 d-sleep, 0 stopped, 1 zombie
+%Cpu(s):  3,3 us,  0,3 sy,  0,1 ni, 95,9 id,  0,1 wa,  0,2 hi,  0,1 si,  0,1 st 
+MiB Mem :  15967,7 total,  12411,0 free,   2168,8 used,   1836,8 buff/cache     
+MiB Swap:   1024,0 total,   1024,0 free,      0,0 used.  13799,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1109 yoda      20   0  574624 194824  99676 S   8,2   1,2   0:28.15 Xorg
+   1083 root      20   0  122876  78168   9476 S   6,9   0,5   1:23.34 xrdp
+   3806 yoda      20   0 2615476 119028  88456 S   1,6   0,7   0:00.60 WebExtensions
+   5452 yoda      20   0   13260  10992   7016 S   1,3   0,1   0:00.85 zsh
+   2462 yoda      20   0  648200  65276  48324 S   1,0   0,4   0:03.00 xfce4-terminal
+   1327 yoda      20   0  787500  86728  55192 S   0,7   0,5   0:04.63 xfdesktop
+    194 root      20   0       0      0      0 I   0,3   0,0   0:00.04 kworker/u262:2-events_unbound
+   1195 yoda      20   0 1062272 128476  99360 S   0,3   0,8   0:09.46 xfwm4
+   1571 yoda      20   0  595428  43044  31700 S   0,3   0,3   0:00.95 xfce4-screensav
+   3619 yoda      20   0 3022940 340400 182868 S   0,3   2,1   0:50.01 firefox.real
+   4965 yoda      20   0  342048  19816  17512 S   0,3   0,1   0:00.17 glycin-svg
+   5574 yoda      25   5   10472   7736   5588 R   0,3   0,0   0:00.08 top
+      1 root      20   0   20628  14756  10872 S   0,0   0,1   0:02.15 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_workqueue_release
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kvfree_rcu_reclaim
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-rcu_gp
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-sync_wq
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-slub_flushwq
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-netns
+      9 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0-events
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri
+     11 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u256:0-events_unbound
+     13 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mm_percpu_wq
+     14 root      20   0       0      0      0 I   0,0   0,0   0:00.08 kworker/u256:1-ipv6_addrconf
+     15 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_kthread
+     16 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_rude_kthread
+     17 root      20   0       0      0      0 I   0,0   0,0   0:00.00 rcu_tasks_trace_kthread
+     18 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/0
+     19 root      -2   0       0      0      0 I   0,0   0,0   0:00.26 rcu_preempt
+     20 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 rcub/1
+     21 root      20   0       0      0      0 S   0,0   0,0   0:00.02 rcu_exp_par_gp_kthread_worker/1
+     22 root      20   0       0      0      0 S   0,0   0,0   0:00.01 rcu_exp_gp_kthread_worker
+     23 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0
+     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0
+     25 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0
+     26 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1
+     27 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1
+     28 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/1
+     29 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/1
+     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri
+     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2
+     33 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2
+     34 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/2
+     35 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/2
+     37 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri
+     38 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/3
+     39 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/3
+     40 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/3
+     41 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/3
+     42 root      20   0       0      0      0 I   0,0   0,0   0:00.04 kworker/3:0-events
+     43 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/3:0H-events_highpri
+     44 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/4
+     45 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/4
+     46 root      rt   0       0      0      0 S   0,0   0,0   0:00.31 migration/4
+     47 root      20   0       0      0      0 S   0,0   0,0   0:00.01 ksoftirqd/4
+     49 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:0H-events_highpri
+     50 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/5
+     51 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/5
+     52 root      rt   0       0      0      0 S   0,0   0,0   0:00.32 migration/5
+     53 root      20   0       0      0      0 S   0,0   0,0   0:00.00 ksoftirqd/5
+     55 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0H-events_highpri
+     56 root      20   0       0      0      0 I   0,0   0,0   0:00.07 kworker/u257:0-events_unbound
+     58 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u259:0-kvfree_rcu_reclaim
+     59 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u260:0-events_power_efficient
+     61 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:0-kvfree_rcu_reclaim
+     62 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs
+     63 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-inet_frag_wq
+     64 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd
+     65 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd
+     66 root      20   0       0      0      0 S   0,0   0,0   0:00.00 oom_reaper
+     68 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-writeback
+     69 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u257:2-kvfree_rcu_reclaim
+     70 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kcompactd0
+     71 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd
+     72 root      39  19       0      0      0 S   0,0   0,0   0:00.47 khugepaged
+     73 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kintegrityd
+     74 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kblockd
+     75 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-blkcg_punt_bio
+     76 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 irq/9-acpi
+     77 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:1-events
+     78 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/1:1-events
+     79 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xen-balloon
+     80 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-tpm_dev_wq
+     81 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ata_sff
+     82 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-edac-poller
+     83 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-devfreq_wq
+     84 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 watchdogd
+     85 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-quota_events_unbound
+     86 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:1-kvfree_rcu_reclaim
+     87 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/4:1-mm_percpu_wq
+     88 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/4:1H-kblockd
+     89 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kswapd0
+     90 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kthrotld
+     91 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-acpi_thermal_pm
+     92 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenbus
+     93 root      20   0       0      0      0 S   0,0   0,0   0:00.00 xenwatch
+     94 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khvcd
+     95 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-mld
+     96 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u259:1-events_freezable_pwr_efficient
+     97 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/5:1H-kblockd
+     98 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ipv6_addrconf
+     99 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u262:1-events_unbound
+    101 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u261:2-events_unbound
+    108 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-kstrp
+    111 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u263:0
+    112 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u264:0
+    113 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u265:0
+    114 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u266:0
+    115 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u267:0
+    116 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u268:0
+    117 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/u269:0
+    118 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:1H-kblockd
+    146 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/3:1H-kblockd
+    159 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/1:1H-kblockd
+    188 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u260:1-writeback
+    189 root       0 -20       0      0      0 I   0,0   0,0   0:00.01 kworker/2:1H-kblockd
+    190 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_0
+    191 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_0
+    192 root      20   0       0      0      0 S   0,0   0,0   0:00.01 scsi_eh_1
+    193 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-scsi_tmf_1
+    197 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u258:1-events_unbound
+    198 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:2-cgroup_release
+    271 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/2:2-ata_sff
+    272 root      20   0       0      0      0 S   0,0   0,0   0:00.13 jbd2/xvda2-8
+    273 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-ext4-rsv-conversion
+    322 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/4:2-events
+    333 root      20   0   91780  21264  20088 S   0,0   0,1   0:00.57 systemd-journal
+    346 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u257:3-events_power_efficient
+    372 root      20   0    9096   4532   3968 S   0,0   0,0   0:00.05 systemd-userdbd
+    377 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/3:2-mm_percpu_wq
+    531 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    539 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/0:3-mm_percpu_wq
+    544 systemd+  20   0   85412   7244   6476 S   0,0   0,0   0:00.10 systemd-timesyn
+    558 root      20   0   43160  13732   8864 S   0,0   0,1   0:00.30 systemd-udevd
+    560 root      -2   0       0      0      0 S   0,0   0,0   0:00.00 psimon
+    604 root      20   0       0      0      0 I   0,0   0,0   0:00.03 kworker/1:2-mm_percpu_wq
+    633 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/R-cryptd
+    637 root      20   0       0      0      0 I   0,0   0,0   0:00.05 kworker/5:3-mm_percpu_wq
+    645 dbus      20   0    8132   4332   3460 S   0,0   0,0   0:00.08 dbus-broker-lau
+    646 dbus      20   0    6552   4624   2764 S   0,0   0,0   0:00.22 dbus-broker
+    647 root      20   0  496020  28828  24892 S   0,0   0,2   0:00.25 NetworkManager
+    648 avahi     20   0    6192   4476   4120 S   0,0   0,0   0:00.12 avahi-daemon
+    649 polkitd   20   0  383320  10912   7976 S   0,0   0,1   0:00.75 polkitd
+    651 root      20   0   10252   7844   6824 S   0,0   0,0   0:00.20 systemd-logind
+    675 avahi     20   0    6192   1628   1320 S   0,0   0,0   0:00.00 avahi-daemon
+    685 root      20   0  391168  12736  10468 S   0,0   0,1   0:00.20 ModemManager
+    732 root      20   0       0      0      0 I   0,0   0,0   0:00.01 kworker/u258:2-events_unbound
+    733 root      20   0   22180   8652   7440 S   0,0   0,1   0:00.02 cupsd
+    742 root      20   0   12856   7568   6340 S   0,0   0,0   0:00.05 sshd
+    744 root      20   0   13540   4724   3864 S   0,0   0,0   0:00.01 xrdp-sesman
+    752 root      20   0    7216   5296   4500 S   0,0   0,0   0:00.01 crond
+    755 root      20   0   21644   7548   6356 S   0,0   0,0   0:00.05 xrdp
+    774 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u259:2-kvfree_rcu_reclaim
+    776 root      20   0  381300   7828   7000 S   0,0   0,0   0:00.05 lightdm
+    777 root      20   0    7548   2788   2580 S   0,0   0,0   0:00.02 agetty
+    784 root      20   0  847156  51608  24280 S   0,0   0,3   0:00.64 Xorg
+    785 root      20   0  309328  10348   9504 S   0,0   0,1   0:00.15 accounts-daemon
+    810 root      20   0  171860   9524   8532 S   0,0   0,1   0:00.02 lightdm
+    816 root      -2   0       0      0      0 S   0,0   0,0   0:00.02 psimon
+    818 lightdm   20   0   18532  12332  10248 S   0,0   0,1   0:00.31 systemd
+    820 lightdm   20   0   19564   3760   2164 S   0,0   0,0   0:00.00 (sd-pam)
+    829 lightdm   20   0  884740  60620  42160 S   0,0   0,4   0:01.14 lightdm-gtk-gre
+    832 lightdm   20   0    7576   3808   3500 S   0,0   0,0   0:00.03 dbus-broker-lau
+    833 lightdm   20   0    4836   3036   2764 S   0,0   0,0   0:00.02 dbus-broker
+    834 lightdm   20   0  380588   7620   6940 S   0,0   0,0   0:00.03 at-spi-bus-laun
+    840 lightdm   20   0    7576   3756   3484 S   0,0   0,0   0:00.00 dbus-broker-lau
+    841 lightdm   20   0    4836   2908   2720 S   0,0   0,0   0:00.00 dbus-broker
+    844 lightdm   20   0  331672  12756  10884 S   0,0   0,1   0:00.03 gvfsd
+    850 lightdm   20   0  325364   7520   6704 S   0,0   0,0   0:00.02 gvfsd-fuse
+    890 lightdm   20   0  169496   6964   6320 S   0,0   0,0   0:00.04 gvfsd-metadata
+    958 root      20   0   20008   8648   7624 S   0,0   0,1   0:00.01 lightdm
+    959 lightdm   20   0  168000   7268   6640 S   0,0   0,0   0:00.02 at-spi2-registr
+   1063 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u260:3-kvfree_rcu_reclaim
+   1065 root      20   0       0      0      0 I   0,0   0,0   0:00.02 kworker/u258:3-events_unbound
+   1085 root      20   0   21372  10148   8508 S   0,0   0,1   0:00.03 xrdp-sesexec
+   1091 yoda      20   0   18988  12412  10172 S   0,0   0,1   0:00.31 systemd
+   1093 yoda      20   0   19568   3744   2152 S   0,0   0,0   0:00.00 (sd-pam)
+   1102 yoda      20   0  182408  11968  10944 S   0,0   0,1   0:00.05 gnome-keyring-d
+   1107 yoda      20   0    7576   3792   3488 S   0,0   0,0   0:00.01 dbus-broker-lau
+   1108 yoda      20   0    4836   2968   2692 S   0,0   0,0   0:00.02 dbus-broker
+   1115 yoda      20   0  836164  95976  79340 S   0,0   0,6   0:01.49 xfce4-session
+   1116 yoda      20   0  105156   7016   5736 S   0,0   0,0   0:00.02 xrdp-chansrv
+   1138 yoda      20   0    7696   4080   2292 S   0,0   0,0   0:00.60 dbus-daemon
+   1144 yoda      20   0  331672  14852  12932 S   0,0   0,1   0:00.05 gvfsd
+   1150 yoda      20   0  399096   9732   8896 S   0,0   0,1   0:00.01 gvfsd-fuse
+   1160 yoda      20   0  380596   8340   7612 S   0,0   0,1   0:00.01 at-spi-bus-laun
+   1166 yoda      20   0    7272   4656   3892 S   0,0   0,0   0:00.08 dbus-daemon
+   1168 yoda      20   0  308472   9200   8352 S   0,0   0,1   0:00.29 xfconfd
+   1174 yoda      20   0  167980   8100   7368 S   0,0   0,0   0:00.10 at-spi2-registr
+   1181 yoda      20   0   12700   1900    832 S   0,0   0,0   0:00.00 ssh-agent
+   1193 yoda      20   0  155944   5408   5088 S   0,0   0,0   0:00.02 gpg-agent
+   1229 yoda      20   0   97696  10144   8060 S   0,0   0,1   0:00.06 pipewire
+   1230 yoda      20   0  555332  16628  13148 S   0,0   0,1   0:00.25 wireplumber
+   1231 yoda      20   0   99532  11000   9228 S   0,0   0,1   0:00.05 pipewire-pulse
+   1241 rtkit     21   1   21284   3340   3120 S   0,0   0,0   0:00.04 rtkit-daemon
+   1271 yoda      20   0  165616   6440   5884 S   0,0   0,0   0:00.02 dconf-service
+   1275 yoda      20   0  635340  57132  43164 S   0,0   0,3   0:01.91 xfce4-panel
+   1283 yoda      20   0  641552  59596  43820 S   0,0   0,4   0:01.82 Thunar
+   1290 yoda      20   0  626804  57232  43104 S   0,0   0,4   0:02.96 wrapper-2.0
+   1307 yoda      20   0  169632   9244   8472 S   0,0   0,1   0:00.52 gvfsd-metadata
+   1313 yoda      20   0  615632  48864  35768 S   0,0   0,3   0:00.79 wrapper-2.0
+   1315 yoda      20   0  687276  52736  40072 S   0,0   0,3   0:00.76 wrapper-2.0
+   1317 yoda      20   0  622352  51092  39120 S   0,0   0,3   0:00.74 wrapper-2.0
+   1379 yoda      20   0  610236  47592  36464 S   0,0   0,3   0:00.71 xfce4-notifyd
+   1533 yoda      20   0   12864   2020   1716 S   0,0   0,0   0:00.01 xcape
+   1536 yoda      20   0  628028  65732  40540 S   0,0   0,4   0:00.70 xfce4-clipman
+   1537 yoda      20   0 1175476 289652 225716 S   0,0   1,8   0:17.81 nextcloud
+   1539 yoda      20   0  461760  39364  27252 S   0,0   0,2   0:00.70 xfce4-power-man
+   1544 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/u261:3-flush-202:0
+   1548 yoda      20   0  672648  62592  48164 S   0,0   0,4   0:00.77 nm-applet
+   1551 yoda      20   0  316324  10836   9952 S   0,0   0,1   0:00.00 agent
+   1557 yoda      20   0  636784  57364  43736 S   0,0   0,4   0:00.71 pamac-tray
+   1562 yoda      20   0  646928  70808  39572 S   0,0   0,4   0:01.12 blueman-applet
+   1573 yoda      20   0  531004   9784   8416 S   0,0   0,1   0:00.09 xiccd
+   1579 yoda      20   0  320648  37044  26664 S   0,0   0,2   0:00.58 polkit-gnome-au
+   1585 yoda      20   0  234332  32276  29140 S   0,0   0,2   0:00.25 msm_notifier
+   1586 yoda      20   0  542952  39332  27956 S   0,0   0,2   0:00.58 xfce4-notifyd
+   1598 colord    20   0  317300  17176  12160 S   0,0   0,1   0:00.19 colord
+   1663 yoda      20   0  331672  14668  12800 S   0,0   0,1   0:00.03 gvfsd
+   1683 yoda      20   0  478044  18732  15644 S   0,0   0,1   0:00.10 xdg-desktop-por
+   1698 yoda      20   0  307948   8624   8092 S   0,0   0,1   0:00.00 xdg-permission-
+   1708 yoda      20   0  539464   9576   8896 S   0,0   0,1   0:00.03 xdg-document-po
+   1715 root      20   0    2984   2172   2064 S   0,0   0,0   0:00.00 fusermount3
+   1720 yoda      20   0  534420  37736  26968 S   0,0   0,2   0:00.56 xdg-desktop-por
+   1727 root      20   0  319740  12712  10928 S   0,0   0,1   0:00.10 upowerd
+   1886 yoda      20   0  585128  20188  17820 S   0,0   0,1   0:00.04 gvfs-udisks2-vo
+   1890 root      20   0  479188  14748  12460 S   0,0   0,1   0:00.06 udisksd
+   1931 yoda      20   0  310628   9984   9208 S   0,0   0,1   0:00.00 gvfs-gphoto2-vo
+   1937 yoda      20   0  392260  11212   9916 S   0,0   0,1   0:00.01 gvfs-afc-volume
+   1944 yoda      20   0  308476   9160   8512 S   0,0   0,1   0:00.01 gvfs-mtp-volume
+   1961 yoda      20   0  553084  15816  13652 S   0,0   0,1   0:00.03 gvfsd-trash
+   2539 yoda      20   0   13376  11204   7140 S   0,0   0,1   0:03.28 zsh
+   2553 yoda      20   0   11080   6156   4132 S   0,0   0,0   0:00.00 zsh
+   2578 yoda      20   0   12360   7176   3956 S   0,0   0,0   0:00.00 zsh
+   2579 yoda      20   0   12344   6776   3560 S   0,0   0,0   0:00.00 zsh
+   2581 yoda      20   0  106580   4876   4536 S   0,0   0,0   0:00.01 gitstatusd
+   2685 yoda      20   0   33,0g 398500 267820 S   0,0   2,4   0:23.85 yandex_browser
+   2694 yoda      20   0    6000   4024   3920 S   0,0   0,0   0:00.00 cat
+   2695 yoda      20   0    6000   4028   3920 S   0,0   0,0   0:00.00 cat
+   2697 yoda      20   0   32,0g   4368   4008 S   0,0   0,0   0:00.00 chrome_crashpad
+   2699 yoda      20   0   32,0g   3796   3464 S   0,0   0,0   0:00.00 chrome_crashpad
+   2705 yoda      20   0   32,4g  77484  60820 S   0,0   0,5   0:00.10 yandex_browser
+   2706 yoda      20   0   32,4g  77828  61204 S   0,0   0,5   0:00.08 yandex_browser
+   2710 yoda      20   0   32,4g  20332   3484 S   0,0   0,1   0:00.08 yandex_browser
+   2748 yoda      20   0   32,4g 133844 103952 S   0,0   0,8   0:05.89 yandex_browser
+   2772 yoda      20   0   32,5g  60044  41568 S   0,0   0,4   0:00.15 yandex_browser
+   2851 yoda      20   0   32,5g  87528  72240 S   0,0   0,5   0:00.12 yandex_browser
+   2862 yoda      20   0 1224,1g 112488  84652 S   0,0   0,7   0:00.21 yandex_browser
+   2875 yoda      20   0 1224,2g 212316 185004 S   0,0   1,3   0:00.59 yandex_browser
+   2891 yoda      20   0 1224,2g 160976 116180 S   0,0   1,0   0:01.01 yandex_browser
+   3026 yoda      20   0   32,6g 128536 105616 S   0,0   0,8   0:02.97 yandex_browser
+   3596 yoda      20   0  395856  38572  27716 S   0,0   0,2   0:00.40 xfsettingsd
+   3606 yoda      20   0    8120   5784   5480 S   0,0   0,0   0:00.00 sh
+   3607 yoda      20   0    8252   6028   5652 S   0,0   0,0   0:00.00 bash
+   3701 yoda      20   0  446580  39056  29440 S   0,0   0,2   0:00.09 forkserver
+   3718 yoda      20   0  459844  36476  25608 S   0,0   0,2   0:00.04 Socket Process
+   3734 yoda      20   0  562620 111676  50720 S   0,0   0,7   0:02.84 tor
+   3740 yoda      20   0 2614924 129052  97660 S   0,0   0,8   0:12.45 Privileged Cont
+   3749 yoda      20   0  693956  44932  31776 S   0,0   0,3   0:00.06 RDD Process
+   3862 yoda      20   0  457896  34892  24136 S   0,0   0,2   0:00.03 Utility Process
+   3869 yoda      20   0 2576444  76460  60404 S   0,0   0,5   0:00.09 Web Content
+   3877 yoda      20   0 2576444  76988  60940 S   0,0   0,5   0:00.37 Web Content
+   3917 yoda      20   0 2576444  76220  60200 S   0,0   0,5   0:00.10 Web Content
+   3944 yoda      20   0 1803624  22144  13140 S   0,0   0,1   0:00.06 lyrebird
+   4509 yoda      20   0   32,5g  52280  34012 S   0,0   0,3   0:00.04 yandex_browser
+   4866 yoda      20   0 1224,1g  78192  55184 S   0,0   0,5   0:00.06 yandex_browser
+   4892 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/5:0-events
+   4893 yoda      20   0 1224,2g 240928 144372 S   0,0   1,5   0:08.99 yandex_browser
+   4922 yoda      20   0 1224,1g 111660  85712 S   0,0   0,7   0:00.14 yandex_browser
+   4932 yoda      20   0 1224,2g 151520 115604 S   0,0   0,9   0:00.51 yandex_browser
+   4945 yoda      20   0 1225,8g 187896 107824 S   0,0   1,1   0:00.67 yandex_browser
+   4961 yoda      20   0    3252   2248   2120 S   0,0   0,0   0:00.00 bwrap
+   4964 yoda      20   0    3252   1320   1188 S   0,0   0,0   0:00.00 bwrap
+   4982 yoda      20   0       0      0      0 Z   0,0   0,0   0:00.00 dbus-daemon
+   5013 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0-events
+   5310 root      20   0    9612   4724   4132 S   0,0   0,0   0:00.00 systemd-userwor
+   5311 root      20   0    9612   4752   4156 S   0,0   0,0   0:00.00 systemd-userwor
+   5342 root      20   0    9612   4704   4108 S   0,0   0,0   0:00.00 systemd-userwor
+   5448 yoda      20   0    6192   4388   4260 S   0,0   0,0   0:00.01 script
+   5478 yoda      20   0   11104   6164   4132 S   0,0   0,0   0:00.00 zsh
+   5502 yoda      20   0   12368   7172   3944 S   0,0   0,0   0:00.00 zsh
+   5503 yoda      20   0   12352   6832   3608 S   0,0   0,0   0:00.00 zsh
+   5505 yoda      20   0  106584   5012   4668 S   0,0   0,0   0:00.00 gitstatusd
+
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                              ]2;yoda@monja:~]1;~]7;file://monja/home/yoda[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;30m [0m[38;5;30m[47m[47m[38;5;30m [0m[38;5;30m[47m[48;5;30m[37m[0m[37m[48;5;30m[48;5;30m[38;5;254m  [1m[38;5;254m[48;5;30m[38;5;255m~[0m[38;5;255m[48;5;30m[48;5;30m[38;5;254m[0m[38;5;254m[48;5;30m[48;5;30m[38;5;254m [0m[38;5;254m[48;5;30m[49m[38;5;30m[0m[38;5;30m[49m[39m [0m[49m[39m[K[167C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[33m[0m[33m[40m[43m[30m 3s[0m[30m[43m[43m[30m [0m[30m[43m[43m[30m [0m[30m[43m[49m[39m[178D[?2004h[?2004l
+
+Script done on 2026-10-30 16:28:29+07:00 [COMMAND_EXIT_CODE="0"]
