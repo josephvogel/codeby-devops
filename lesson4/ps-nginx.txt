@@ -1,0 +1,7 @@
+root        3615  0.0  0.0  11164  1740 ?        Ss   13:26   0:00 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx_my.conf -g daemon on; master_process on;
+www-data    3616  0.0  0.2  12888  4548 ?        S    13:26   0:00 nginx: worker process
+www-data    3618  0.0  0.2  12888  4548 ?        S    13:26   0:00 nginx: worker process
+www-data    3619  0.0  0.2  12888  4548 ?        S    13:26   0:00 nginx: worker process
+www-data    3620  0.0  0.2  12888  4548 ?        S    13:26   0:00 nginx: worker process
+www-data    3621  0.0  0.2  12888  4484 ?        S    13:26   0:00 nginx: worker process
+root        3810  0.0  0.1   7080  2224 pts/2    S+   13:32   0:00 grep --color=auto nginx

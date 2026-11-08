@@ -1,0 +1,48 @@
+Nov 05 13:26:15 exprt01 systemd[1]: Started nginx_my.service - My Custom NGINX.
+░░ Subject: A start job for unit nginx_my.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit nginx_my.service has finished successfully.
+░░ 
+░░ The job identifier is 2354.
+Nov 05 13:26:15 exprt01 systemd[1]: Starting nginx_my.service - My Custom NGINX...
+░░ Subject: A start job for unit nginx_my.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit nginx_my.service has begun execution.
+░░ 
+░░ The job identifier is 2354.
+Nov 05 13:22:59 exprt01 systemd[1]: Failed to start nginx_my.service - My Custom NGINX.
+░░ Subject: A start job for unit nginx_my.service has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit nginx_my.service has finished with a failure.
+░░ 
+░░ The job identifier is 2244 and the job result is failed.
+Nov 05 13:22:59 exprt01 systemd[1]: nginx_my.service: Failed with result 'exit-code'.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit nginx_my.service has entered the 'failed' state with result 'exit-code'.
+Nov 05 13:22:59 exprt01 systemd[1]: nginx_my.service: Control process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ An ExecStartPre= process belonging to unit nginx_my.service has exited.
+░░ 
+░░ The process' exit code is 'exited' and its exit status is 1.
+Nov 05 13:22:59 exprt01 nginx[3476]: nginx: configuration file /etc/nginx_my.conf test failed
+Nov 05 13:22:59 exprt01 nginx[3476]: 2026/11/05 13:22:59 [emerg] 3476#3476: open() "/etc/nginx_my.conf" failed (2: No such file or directory)
+Nov 05 13:22:59 exprt01 systemd[1]: Starting nginx_my.service - My Custom NGINX...
+░░ Subject: A start job for unit nginx_my.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit nginx_my.service has begun execution.
+░░ 
+░░ The job identifier is 2244.
