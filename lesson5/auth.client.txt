@@ -1,0 +1,30 @@
+2026-11-18T09:05:01.264548+00:00 tmpclientnoble CRON[295777]: pam_unix(cron:session): session closed for user root
+2026-11-18T09:15:01.277611+00:00 tmpclientnoble CRON[295997]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-18T09:15:01.284546+00:00 tmpclientnoble CRON[295997]: pam_unix(cron:session): session closed for user root
+2026-11-18T09:17:01.294121+00:00 tmpclientnoble CRON[296045]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-18T09:17:01.300117+00:00 tmpclientnoble CRON[296045]: pam_unix(cron:session): session closed for user root
+2026-11-18T09:19:01.090607+00:00 tmpclientnoble sshd[296090]: Accepted password for yoda from 172.16.100.249 port 47810 ssh2
+2026-11-18T09:19:01.095054+00:00 tmpclientnoble sshd[296090]: pam_unix(sshd:session): session opened for user yoda(uid=1000) by yoda(uid=0)
+2026-11-18T09:19:01.119230+00:00 tmpclientnoble systemd-logind[690]: New session 1548 of user yoda.
+2026-11-18T09:19:01.200484+00:00 tmpclientnoble (systemd): pam_unix(systemd-user:session): session opened for user yoda(uid=1000) by yoda(uid=0)
+2026-11-18T09:19:07.689309+00:00 tmpclientnoble sudo:     yoda : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+2026-11-18T09:19:07.692153+00:00 tmpclientnoble sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by yoda(uid=1000)
+2026-11-18T09:21:37.635325+00:00 tmpclientnoble sshd[200858]: Received signal 15; terminating.
+2026-11-18T09:21:37.713862+00:00 tmpclientnoble sshd[296361]: Server listening on 0.0.0.0 port 22.
+2026-11-18T09:21:37.715286+00:00 tmpclientnoble sshd[296361]: Server listening on :: port 22.
+2026-11-18T09:22:20.059955+00:00 tmpclientnoble sshd[296365]: User yoda from 172.16.100.249 not allowed because not listed in AllowUsers
+2026-11-18T09:22:25.894799+00:00 tmpclientnoble sshd[296365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.100.249  user=yoda
+2026-11-18T09:22:28.266591+00:00 tmpclientnoble sshd[296365]: Failed password for invalid user yoda from 172.16.100.249 port 40708 ssh2
+2026-11-18T09:22:40.542253+00:00 tmpclientnoble sshd[296365]: Failed password for invalid user yoda from 172.16.100.249 port 40708 ssh2
+2026-11-18T09:22:44.124415+00:00 tmpclientnoble sshd[296365]: Connection closed by invalid user yoda 172.16.100.249 port 40708 [preauth]
+2026-11-18T09:22:44.126579+00:00 tmpclientnoble sshd[296365]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.100.249  user=yoda
+2026-11-18T09:23:29.209551+00:00 tmpclientnoble sshd[296388]: Accepted password for yoda from 172.16.100.242 port 54776 ssh2
+2026-11-18T09:23:29.213574+00:00 tmpclientnoble sshd[296388]: pam_unix(sshd:session): session opened for user yoda(uid=1000) by yoda(uid=0)
+2026-11-18T09:23:29.226004+00:00 tmpclientnoble systemd-logind[690]: New session 1550 of user yoda.
+2026-11-18T09:24:51.798123+00:00 tmpclientnoble sshd[296446]: Received disconnect from 172.16.100.242 port 54776:11: disconnected by user
+2026-11-18T09:24:51.798846+00:00 tmpclientnoble sshd[296446]: Disconnected from user yoda 172.16.100.242 port 54776
+2026-11-18T09:24:51.799821+00:00 tmpclientnoble sshd[296388]: pam_unix(sshd:session): session closed for user yoda
+2026-11-18T09:24:51.809467+00:00 tmpclientnoble systemd-logind[690]: Session 1550 logged out. Waiting for processes to exit.
+2026-11-18T09:24:51.812187+00:00 tmpclientnoble systemd-logind[690]: Removed session 1550.
+2026-11-18T09:25:01.312874+00:00 tmpclientnoble CRON[296500]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-18T09:25:01.320506+00:00 tmpclientnoble CRON[296500]: pam_unix(cron:session): session closed for user root
